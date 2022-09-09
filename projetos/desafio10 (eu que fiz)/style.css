@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf')format('opentype');font-weight: normal; font-size: normal;
+}
+
+body{
+    background-color: #faeed0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+
+}
+
+header{
+    width: 1571px;
+    height: 200px;
+    background-image:linear-gradient(to bottom,#3acc7c, #247a4a, #14472b);
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -7.56px;
+}
+
+h2{
+    font-family: idroid, Helvetica, sans-serif;
+    color: #278f56;
+    text-indent: 20px;
+}
+
+h3{
+    font-family: idroid, Helvetica, sans-serif;
+    color: #22804c;
+    text-indent: 20px;
+    border-width: 1px;
+    border-color: #3acc7c;
+    background-image:linear-gradient(to right,#5af09e,#d7fae700);
+    
+}
+
+#important{
+    text-align: center;
+    color: white;
+}
+
+div{
+    text-align: center;
+    color: white;
+}
+
+nav > a{
+    color: #a0f3c5cb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 3px;
+    padding-left: 20px;
+    font-size: bolder;
+    font-weight: bold;
+    
+}
+
+main{
+    width: 62%;
+    background-color: white;
+    margin:auto;
+    padding-top: 10px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+p{
+    text-indent: 35px;
+
+}
+
+.link{
+    border-width: 1px;
+    border-color: #3acc7c;
+    background-image:linear-gradient(to right,#5af09e,#5af09e);
+    
+    text-decoration: none;
+    font-size: bolder;
+    font-weight: bold;
+}
+
+span{
+    color: #2da561;
+    font-size: bolder;
+    font-weight: bold;
+}
+
+.imagens{
+    text-align: center;
+    padding-left: 65px;
+}
+
+#bugdroid{
+    padding-left: 300px;
+}
+
+video{
+    padding-left: 100px;
+}
+
+article{ 
+    width: 932px;
+    height: 338px;
+    background-color: #7EDEA8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0px 0px 20px 20px;
+
+
+}
+
+ul{
+    display: inline-block;
+}
+
+#pimportant{
+    width: 932px;
+    height: 24px;
+    padding-top: 5px;
+    margin-bottom: -16px;
+    margin-left: 20px;
+    border-right: 24px;
+    background-color: #2a804f;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+#baisco{
+    padding-left: 20px;
+}
+
+footer{
+    
+    color: white;
+    width: 932px;
+    height: 24px;
+    background-color: #1c613a;
+    padding-left: 643px;
+    padding-top: 7px;
+}

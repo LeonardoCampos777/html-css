@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #4FFFDC, #488C83, #197568);
+    font-family: 'Crafty Girls', cursive;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    
+    font-family: 'Fredericka the Great';
+    font-size: 3em;
+    font-weight: normal;
+
+}
+
+div{
+    background-color: rgba(248, 175, 38, 0.938);
+    border-radius: 2px;
+    width: 300px;
+    padding: 10px;
+    
+}
+
+p{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+img{
+    border-width: 21px;
+    border-style: solid;
+    border-color: rgb(80, 15, 134);
+    text-align: center;
+    
+
+}
+
+h1{
+    border-width: 17px;
+    border-style: solid;
+    border-color: black;
+    color: darkblue;
+    background-color: rgb(123, 103, 252);
+}
+
+h2{
+    
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    color: darkblue;
+    font-weight: bold;
+    background-color: rgb(123, 103, 252);
+    
+    
+
+}
+ 
+a{
+    text-align: center;
+}
+
+#importante{
+    border-style: none;
+    border-color: rgb(245, 220, 222);
+}
+
+.especial:hover{
+    color: rgb(18, 124, 4);
+}
+
+.bordahover:hover{
+    background-color: rgb(90, 219, 241);
+}
+
+.semborda{
+    border-width: 1px;
+}

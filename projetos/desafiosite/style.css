@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(131, 128, 128);
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px
+    
+
+}
+
+nav{
+    background-color: darkgrey;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+a{
+    font-weight: bold;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+article{
+    background-color: lightslategray;
+    padding: 5px;
+}
+
+aside{
+    background-color: rgb(137, 141, 141);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
