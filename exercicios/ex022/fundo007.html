@@ -4,52 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Teste</title>
+    <title>Alinhamento vertical</title>
     <style>
-        body{
-            height: 100vw;
-            background-color: rgb(32, 32, 87);
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
 
-        main{
-            background-color: white;
-            max-width: 400px;
-            margin: auto;
-            border: 2px solid rgb(0, 0, 0);
-            border-radius: 15px;
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh;
+            background-color: purple;
             padding: 10px;
-
         }
 
-        main h1{
-            text-align: center;
-        }
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
 
-        footer{
-            background-color: rgba(0, 0, 0, 0.281);
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 1em;
-            text-align: center;
-            
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate( -50%, -50%);
         }
     </style>
 </head>
 <body>
-    <main>
-        <h1>Teste Leonardo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt exercitationem inventore labore repudiandae animi id, rerum voluptatem quibusdam laboriosam earum sequi, libero odit qui excepturi. Libero aspernatur fugiat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, accusantium, obcaecati modi veniam facilis animi excepturi a saepe voluptates nesciunt nostrum ipsum repellendus laborum nam beatae? Vel illum rerum quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aspernatur dicta, sapiente et animi blanditiis inventore officiis laboriosam quaerat, porro voluptas. Natus repudiandae doloremque possimus sed animi cumque! Earum, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti placeat eum mollitia, possimus nobis facere distinctio, quasi esse iusto libero eius dolor omnis soluta? Cupiditate aperiam consequuntur reprehenderit repellat animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis ut quibusdam iure, facilis, labore nostrum placeat non molestias incidunt, repudiandae maxime unde cum dicta? Doloremque, corrupti! Perferendis, veritatis saepe.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt exercitationem inventore labore repudiandae animi id, rerum voluptatem quibusdam laboriosam earum sequi, libero odit qui excepturi. Libero aspernatur fugiat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, accusantium, obcaecati modi veniam facilis animi excepturi a saepe voluptates nesciunt nostrum ipsum repellendus laborum nam beatae? Vel illum rerum quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aspernatur dicta, sapiente et animi blanditiis inventore officiis laboriosam quaerat, porro voluptas. Natus repudiandae doloremque possimus sed animi cumque! Earum, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti placeat eum mollitia, possimus nobis facere distinctio, quasi esse iusto libero eius dolor omnis soluta? Cupiditate aperiam consequuntur reprehenderit repellat animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis ut quibusdam iure, facilis, labore nostrum placeat non molestias incidunt, repudiandae maxime unde cum dicta? Doloremque, corrupti! Perferendis, veritatis saepe.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt exercitationem inventore labore repudiandae animi id, rerum voluptatem quibusdam laboriosam earum sequi, libero odit qui excepturi. Libero aspernatur fugiat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, accusantium, obcaecati modi veniam facilis animi excepturi a saepe voluptates nesciunt nostrum ipsum repellendus laborum nam beatae? Vel illum rerum quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aspernatur dicta, sapiente et animi blanditiis inventore officiis laboriosam quaerat, porro voluptas. Natus repudiandae doloremque possimus sed animi cumque! Earum, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti placeat eum mollitia, possimus nobis facere distinctio, quasi esse iusto libero eius dolor omnis soluta? Cupiditate aperiam consequuntur reprehenderit repellat animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis ut quibusdam iure, facilis, labore nostrum placeat non molestias incidunt, repudiandae maxime unde cum dicta? Doloremque, corrupti! Perferendis, veritatis saepe.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora deserunt exercitationem inventore labore repudiandae animi id, rerum voluptatem quibusdam laboriosam earum sequi, libero odit qui excepturi. Libero aspernatur fugiat nesciunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, accusantium, obcaecati modi veniam facilis animi excepturi a saepe voluptates nesciunt nostrum ipsum repellendus laborum nam beatae? Vel illum rerum quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aspernatur dicta, sapiente et animi blanditiis inventore officiis laboriosam quaerat, porro voluptas. Natus repudiandae doloremque possimus sed animi cumque! Earum, laudantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti placeat eum mollitia, possimus nobis facere distinctio, quasi esse iusto libero eius dolor omnis soluta? Cupiditate aperiam consequuntur reprehenderit repellat animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis debitis ut quibusdam iure, facilis, labore nostrum placeat non molestias incidunt, repudiandae maxime unde cum dicta? Doloremque, corrupti! Perferendis, veritatis saepe.</p>
-    </main>
-    <footer>
-        Desenvolvido por Leonardo Campos
-    </footer>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
