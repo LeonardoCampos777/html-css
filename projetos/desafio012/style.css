@@ -8,10 +8,12 @@
     padding: 0px;
 }
 
+
 header{
     background-color: black;
     color: white;
-    height: 300px;
+    min-height: 200px;
+    max-height: 500px;
     width: 100%;
 }   
 
@@ -26,6 +28,8 @@ header h1{
 header p{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 35px;
+
 }
 
 header a{
@@ -33,6 +37,7 @@ header a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: bolder;
+    font-size: 1.1em;
 }
 
 header a:hover{
@@ -48,8 +53,9 @@ main > section > p{
 
 .paragrafo1{
     height: 745px;
-    width: 651px;
-    background-color: black;
+    min-width: 403px;
+    max-width: 651px;
+    background-color: rgba(0, 0, 0, 0.247);
     color: white;
     position: relative;
 }
@@ -60,11 +66,14 @@ main > section > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    
 }
 
 .paragrafo2{
     height: 745px;
-    width: 651px;
+    min-width: 403px;
+    max-width: 651px;
     background-color: rgba(0, 0, 0, 0.473);
     color: white;
     position: relative;
@@ -86,4 +95,13 @@ footer{
     font-size: 1.2em;
     padding: 5px;
     text-align: center;
+}
+
+footer >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover{
+    color: rgb(0, 255, 221);
 }
