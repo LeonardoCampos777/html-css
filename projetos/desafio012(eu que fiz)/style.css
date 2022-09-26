@@ -55,7 +55,7 @@ main > section > p{
     height: 745px;
     min-width: 403px;
     max-width: 651px;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(255, 255, 255, 0);
     color: white;
     position: relative;
 }
@@ -66,7 +66,6 @@ main > section > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
     
 }
 
