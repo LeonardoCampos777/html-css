@@ -20,8 +20,9 @@
     padding: 0px;
 }
 
-body{
+ html, body{
     background-color: rgb(29, 29, 29);
+    min-height: 100vh;
     
 }
 
@@ -50,6 +51,7 @@ header > p {
 }
 
 
+
 section >h1{
     color: white;
     font-family:'vingadores', Helvetica, sans-serif;    text-align: center;
@@ -73,10 +75,20 @@ section >p{
     font-weight: bolder;
 }
 
+section.imagem{
+    
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section#img1{
     margin-top: 3px;
     background-image: url(imagens/capitaoamerica2.jpg);
     height: 100vh;
+    background-attachment: scroll;
+    background-position: center center;
 }
 
 section#img2{
@@ -86,5 +98,16 @@ section#img2{
 
 section#img3{
     background-image: url(imagens/hulk.jpg);
+    height: 100vh;
+}
+
+section#img4{
+    background-image: url(imagens/thor.jpg);
+    height: 100vh;
+    background-position: center right;
+}
+
+section#img5{
+    background-image: url(imagens/homemaranha.jpg);
     height: 100vh;
 }
