@@ -10,6 +10,11 @@ body{
 
 }
 
+header>#img01{
+    background-image: url(projeto4.jpg);
+    height: 450px;
+}
+
 header{
     color: rgb(255, 255, 255);
     background-color: black;
@@ -38,7 +43,6 @@ nav> a{
     background-color: #2D4569;
     color: white;
     font-size: 1.2em;
-    margin: 10px;
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -49,11 +53,6 @@ nav> a{
 nav>a:hover{
     background-color: whitesmoke;
     color: black;
-}
-
-header>#img01{
-    background-image: url(projeto4.jpg);
-    height: 450px;
 }
 
  main > section.normal{
@@ -90,7 +89,6 @@ main >section >ul > li{
     background-color: white;
     list-style: none;
 
-
 }
 
 main >section >ul > li >h1{
@@ -123,7 +121,7 @@ main> section> article >p{
     padding-top: 20px;
 }
 
-
+/* ISSO AQUI É PARA DEIXAR AS DUAS TABELAS UMA DO LADO DA OUTRA*/
 main>.grid{
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
@@ -133,8 +131,6 @@ main >section >aside{
     width: 791px;
     height: 280px;
     background-color: #2690D4;
-    
-
 }
 
 main > section > aside >h1{
