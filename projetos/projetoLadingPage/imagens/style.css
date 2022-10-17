@@ -51,40 +51,40 @@ nav>a:hover{
     color: black;
 }
 
-#img01{
+header>#img01{
     background-image: url(projeto4.jpg);
     height: 450px;
 }
 
-section.normal{
+ main > section.normal{
     background-color: #EAEAEA;
     padding-top: 5px;
     height: 200px;
 }
 
-section.normal >h1{
+main >section.normal >h1{
     text-align: center;
     padding: 30px;
 }
 
-section.normal >p{
+main >section.normal >p{
     font-size: 1.1em;
     text-align: center;
     columns: 2;
 }
 
-section.menu{
+main >section.menu{
     height: 500px;
     background-color: #333333;
     padding-top: 35px;
 }
 
-section >ul{
+main >section >ul{
     display: flex;
     justify-content: space-around;
 }
 
-section >ul > li{
+main >section >ul > li{
     height: 460px;
     width: 273px;
     background-color: white;
@@ -93,14 +93,93 @@ section >ul > li{
 
 }
 
-section >ul > li >h1{
+main >section >ul > li >h1{
     text-align: center;
     font-size: 1.3em;
     padding-top: 45px;
 }
 
-section >ul > li >p{
+main >section >ul > li >p{
     text-align: center;
     font-size: 1.1em;
     padding-top: 30px;
+}
+
+main >section > article{
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+main >section >article >h1{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 30px;
+    
+}
+ 
+main> section> article >p{
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+
+main>.grid{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+main >section >aside{
+    width: 791px;
+    height: 280px;
+    background-color: #2690D4;
+    
+
+}
+
+main > section > aside >h1{
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1.3em;
+    padding: 50px;
+
+}
+
+main > section > aside >p{
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+p.email{
+    padding: 50px;
+    font-size: 1.1em;
+}
+
+aside.sobre{
+    width: 792px;
+    height: 280px;
+    background-color: #333333;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+footer>p{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer>p >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer >p >a:hover{
+    color: #2690D4;
 }
