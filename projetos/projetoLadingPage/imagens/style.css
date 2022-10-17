@@ -72,3 +72,35 @@ section.normal >p{
     text-align: center;
     columns: 2;
 }
+
+section.menu{
+    height: 500px;
+    background-color: #333333;
+    padding-top: 35px;
+}
+
+section >ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+section >ul > li{
+    height: 460px;
+    width: 273px;
+    background-color: white;
+    list-style: none;
+
+
+}
+
+section >ul > li >h1{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 45px;
+}
+
+section >ul > li >p{
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 30px;
+}
