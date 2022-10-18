@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header>#img01{
+    background-image: url(projeto4.jpg);
+    height: 450px;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 450px;
+}
+
+header> section > h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 7%;
+}
+
+header > section > p{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 3%;
+}
+
+nav{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+nav> a{
+    background-color: #2D4569;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid  rgb(153, 151, 151);
+    text-decoration: none;
+}
+
+nav>a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+ main > section.normal{
+    background-color: #EAEAEA;
+    padding-top: 5px;
+    height: 200px;
+}
+
+main >section.normal >h1{
+    text-align: center;
+    padding: 30px;
+}
+
+main >section.normal >p{
+    font-size: 1.1em;
+    text-align: center;
+    columns: 2;
+}
+
+main >section.menu{
+    height: 500px;
+    background-color: #333333;
+    padding-top: 35px;
+}
+
+main >section >ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+main >section >ul > li{
+    height: 460px;
+    width: 273px;
+    background-color: white;
+    list-style: none;
+
+}
+
+main >section >ul > li >h1{
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 45px;
+}
+
+main >section >ul > li >p{
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 30px;
+}
+
+main >section > article{
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+main >section >article >h1{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 30px;
+    
+}
+ 
+main> section> article >p{
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+/* ISSO AQUI É PARA DEIXAR AS DUAS TABELAS UMA DO LADO DA OUTRA*/
+main>.grid{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+main >section >aside{
+    width: 791px;
+    height: 280px;
+    background-color: #2690D4;
+}
+
+main > section > aside >h1{
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 1.3em;
+    padding: 50px;
+
+}
+
+main > section > aside >p{
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+p.email{
+    padding: 50px;
+    font-size: 1.1em;
+}
+
+aside.sobre{
+    width: 792px;
+    height: 280px;
+    background-color: #333333;
+}
+
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+footer>p{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer>p >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer >p >a:hover{
+    color: #2690D4;
+}
