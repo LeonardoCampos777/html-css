@@ -7,14 +7,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-}
+    display: inline-block;
+}   
 
 
 div.quadrado{
     display: inline-block;
     height: 100vh;
-    width: 50vh;
-    
+    width: 527px;
 }
 div>img{
     padding-top: 70px;
@@ -38,10 +38,12 @@ div >p{
 
 #verde{
     background-color: #00A76B;
-}
+
+}   
 
 #escuro{
     background-color: #035e5c;
+
 }
 
 #azul{
