@@ -13,7 +13,7 @@ body{
 
 div.quadrado{
     display: inline-block;
-    height: 100vh;
+    height: 85vh;
     width: 527px;
 }
 div>img{
@@ -50,6 +50,51 @@ div >p{
     background-color: #007E7E;
 }
 
-#nav{
+nav{
+    padding: 20px;
+    text-align: left;
+    padding-top: 90px;
+}
+
+nav >a{
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px ;
+    background-color: white;
     
+}   
+
+nav >a:hover{
+    background-color: rgb(67, 216, 166);
+}
+
+#verde1{
+    color: #00A76B;
+}
+
+#escuro1{
+    color: #035e5c;
+}
+
+#azul1{
+    color: #007E7E;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    height: 98px;
+}
+
+footer> h3{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+footer > p{
+    text-align: right;
+    padding-right: 20px;
 }
