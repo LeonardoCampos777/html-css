@@ -87,6 +87,7 @@ footer{
     color:white;
     margin-top: 20px;
     height: 98px;
+    border-radius: 15px 15px 3px 0px;
 }
 
 footer> h3{
