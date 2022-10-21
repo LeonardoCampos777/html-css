@@ -87,22 +87,33 @@ footer{
     color:white;
     margin-top: 20px;
     height: 98px;
-    border-radius: 15px 15px 3px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 footer{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center
 }
 
 
 footer> h3{
-    padding-top: 30px;
+    padding-top: 15px;
     padding-left: 20px;
 }
 
 footer > a{
-    padding-left: 100vh;
-    padding-top: 30px;
+    margin-left: 100vh;
+    padding-top: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
     text-decoration: none;
-    color: white;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+footer > a:hover{
+    background-color: rgb(67, 216, 166);
 }
