@@ -11,8 +11,8 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="ixsmas"><label for="ixsmas">Masculino</label>
-            <input type="radio" name="sexo" id="isxfem"><label for="ixsfem">Feminino</label>
+            <input type="radio" name="sexo" id="ixsmas"><label for="ixsmas">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
         </fieldset>
         <fieldset>
             <legend>Profissão Preferida</legend>
@@ -21,6 +21,19 @@
             <input type="checkbox" name="odont" id="iodont"><label for="iodont">Dentista</label><br>
             <input type="checkbox" name="med" id="imed"><label for="imed">Médica</label><br>
             <input type="checkbox" name="engen" id="iegen"><label for="iegen">Engenheira</label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <label for="itelefone">Telefone:</label>
+            <input type="tel" name="telefone" id="itelefone" required placeholder="(xx)xxxx-xxx">
         </fieldset>
         <p>
             <input type="submit" value="Enviar">
