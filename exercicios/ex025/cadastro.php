@@ -1,2 +1,5 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles.
+PARÁBENS POR RESPONDER ESSE FORMULÁRIO!!
+OBRIGADO E VOLTE SEMPRE!
+CANETA AZULL!!
+OLHEEEEEEEEE
+SE VOCÊ NÃO ME AMAAAA

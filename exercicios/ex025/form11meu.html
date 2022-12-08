@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <fieldset>
+        <legend>Suas Informacoes</legend>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required>
+            </p>
+            <p>
+                <label for="tel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required placeholder="(xx)xxxxx-xxxx">
+            </p>
+            <p>
+                <label for="iano">Idade:</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2022" required
+                oninput="calcIdade()">
+        
+            </p>
+            <p>
+                <label for="iidade">Sua idade é:</label>
+                <output name="idade" id="iidade">0</output>
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="inota">Dê sua nota para esse Formulario:</label>
+                <input type="range" name="nota" id="inota" min="1" max="10" value="3" oninput="ival.innerHTML =Number(inota.value)">
+                <output id="ival">3</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            <script>
+                function calcIdade(){
+                    let atual= new Date().getFullYear()
+                    iidade.innerHTML= Number(atual) - Number(iano.value)
+                }
+            </script>
+        
+        </form>
+    </fieldset>
+</body>
+</html>
