@@ -1,15 +1,8 @@
 @charset "UTF-8";
-@font-face{
-    font-family: 'vingadores';
-    src: url('fonts/AVENGEANCE HEROIC AVENGER BD.otf')format('opentype');
-    font-weight:normal;
-    font-size: normal;
-}
-
 
 *{
-    font-family: vingadores, Helvetica, sans-serif;
-    color: rgb(94, 224, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159 255 115);
     font-size: 1.05em;
 
     
@@ -19,4 +12,8 @@ body{
     background: url(papelparede.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+form{
+    text-align: center;
 }
