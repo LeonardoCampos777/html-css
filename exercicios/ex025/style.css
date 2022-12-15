@@ -12,6 +12,8 @@ body{
     background: url(universo.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
 form{
