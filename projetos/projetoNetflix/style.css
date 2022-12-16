@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 *{
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -9,6 +9,8 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: cover;
+    width: 97vw;
+    height: 94vh;
 }
 
 main >img{
@@ -17,16 +19,47 @@ main >img{
     padding-left: 10px;
 }
 
-main> form{
-    text-align: center;
-    color: white;
-    transform: ;
 
-}
-
-main> div{
+main >div{
     width: 500px;
     height: 500px;
     background-color: black;
+
+}
+
+main >form{
+    color: white;
+
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 7px 7px;
+    max-width: 100%;
+    background-color: #333333;
+
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+#conteudo{
+
+    position: absolute;
+
+    left: 50%;
+    top: 48%;
+
+    transform: translate(-60%,-80%);
+}
+
+#vermelho{
+    background-color: red;
+    color: white;
+    text-align: center;
+
 
 }
