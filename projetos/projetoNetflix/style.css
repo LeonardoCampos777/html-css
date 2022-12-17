@@ -50,9 +50,8 @@ form input, form textarea{
 
     position: absolute;
 
-    left: 50%;
-    top: 48%;
-
+    left: 52%;
+    top: 63%;
     transform: translate(-60%,-80%);
 }
 
@@ -62,4 +61,25 @@ form input, form textarea{
     text-align: center;
 
 
+}
+
+
+main >form >p{
+    color: #afafaf;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+#criar{
+    background-color: red;
+    color: white;
+    width: 109px;
+    padding: 10px;
+    font-size: medium;
+    font-size: 1em;
+
+    position: absolute;
+
+    top: -90px;
+    left: 800px;
 }
