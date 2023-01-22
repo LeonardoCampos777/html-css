@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body{    
+
+    background: url(../imagens/miranha1.jpg);
+    background-position: left top;
+    background-color: #CDDBDE;
+}
