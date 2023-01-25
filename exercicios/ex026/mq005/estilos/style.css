@@ -41,7 +41,7 @@ menu> ul > li > a{
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: rgb(255, 83, 83);
 }
 
 main{
