@@ -24,6 +24,7 @@
     menu{
         background-color: #8b000094;
         cursor: pointer;
+        display: none;
         
     }
 
