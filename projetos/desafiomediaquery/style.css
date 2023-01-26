@@ -38,7 +38,7 @@
     }
 
     #burguer{
-        background-color: rgb(75, 66, 66);
+        background-color: rgba(75, 66, 66, 0.432);
         margin-top: 150px;
         display: block;
         cursor: pointer;
