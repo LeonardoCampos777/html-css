@@ -17,6 +17,10 @@
 
     }
 
+    header >h1{
+        color: black;
+    }
+
     menu{
         background-color: #8b000094;
         cursor: pointer;
