@@ -6,3 +6,24 @@ body{
     background-color: #6C61D7;
     
 }
+
+main > #burguer{
+    display: none;
+}
+
+
+main > menu > ul{
+    display: block;
+    
+}
+
+main > menu > ul > li{
+    display: block;
+    
+}
+
+#itens{
+    display: block;
+    margin-top: 150px;
+}
+
