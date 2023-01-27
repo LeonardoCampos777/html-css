@@ -1,24 +1,27 @@
 @charset "UTF-8";
 
+
+    main > #burguer{
+        display: none;
+    }
+    
+    
+    main > menu > ul > li{
+        display: inline-block;
+        
+    }
+
+
+    
+    #itens{
+        display: inline-block;
+        margin-top: 100px;
+    }
+    
+
+
 body{    
     background: url(../imagens/miranha2.jpg);
     background-position: top bottom;
     background-color: #6C61D7;
-    
 }
-
-main > #burguer{
-    display: none;
-}
-
-
-main > menu > ul > li{
-    display: block;
-    
-}
-
-#itens{
-    display: block;
-    margin-top: 100px;
-}
-
