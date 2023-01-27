@@ -12,11 +12,6 @@ main > #burguer{
 }
 
 
-main > menu > ul{
-    display: block;
-    
-}
-
 main > menu > ul > li{
     display: block;
     
