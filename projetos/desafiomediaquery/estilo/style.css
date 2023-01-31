@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(91, 186, 199);
+}
+
+header{
+    background-color: rgb(86, 86, 206);
+    color: white;
+    margin-bottom: 10px;
+}
+
+header >h1{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+header > menu > ul >li{
+    display: block;
+    text-decoration: none;
+
+}
+
+header> menu > ul > li > a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(66, 62, 62, 0.808);
+    padding: 10px;
+
+}
+#burguer{
+    margin-top: 30px;
+    background-color: rgb(43, 137, 226);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
+}
+
+main{
+    margin: auto;
+    width: 90vw;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px;
+    
+}
+
+main >h2{
+    text-align: center;
+}
+
+main > p{
+    text-align: justify;
+    margin: 20px;
+}
+
