@@ -7,11 +7,11 @@
 
 body,html{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(91, 186, 199);
+    background-color: #0b3246;
 }
 
 header{
-    background-color: rgb(86, 86, 206);
+    background-color: #003554;
     color: white;
     margin-bottom: 10px;
 }
@@ -26,6 +26,7 @@ header >h1{
 header > menu > ul >li{
     display: block;
     text-decoration: none;
+    background-color: #003554;
 
 }
 
@@ -40,7 +41,7 @@ header> menu > ul > li > a{
 }
 #burguer{
     margin-top: 30px;
-    background-color: rgb(43, 137, 226);
+    background-color: #006494;
     color: white;
     display: block;
     text-align: center;
