@@ -39,6 +39,12 @@ header> menu > ul > li > a{
     padding: 10px;
 
 }
+
+header> menu > ul > li > a:hover{
+    background-color: #0e4d6d;
+}
+
+
 #burguer{
     margin-top: 30px;
     background-color: #006494;
