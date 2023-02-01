@@ -77,3 +77,6 @@ main > p{
     margin: 20px;
 }
 
+main > img{
+    width: 100%;
+}
