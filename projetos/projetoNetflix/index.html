@@ -4,41 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Netflix</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="imagens/Netflix_2015_logo.svg.png" alt="">
+    </header>
     <main>
-
-        <img src="imagens/Netflix_2015_logo.svg.png" alt="Netflix">
- 
-        
-        <form action="cadastro.php" method="get" id="conteudo">
-            <label for="ecriar"></label>
-            <input type="submit" value="Criar conta" id="criar">
-
-            <h1>Entrar</h1>
-            <p>
-                <label for="eemail"></label>
-                <input type="email" name="email" id="eemail" placeholder="Email ou número de telefone" height="50px">
-            </p>
-
-
-            <p>
-                <label for="esenha"></label>
-                <input type="password" name="senha" id="esenha" placeholder="Senha">
-            </p>
-
-            <p>
-                <label for="entrar"></label>
-                <input type="text" value="Entrar" id="vermelho">
-            </p>
-
-            <h1>Filmes,séries e muito <br> mais. Sem limites.</h1>
-
-            <p>Novo por aqui ? Assine agora!</p>
-        </form>
-
+        <section id="login">
+                <div id="tela">
+                   <h1>Entrar</h1> 
+                </div>
+                <div id="formulario">
+                    <form action="login.php" method="post">
+                        <div class="campo">
+                            <label for="iemail"></label>
+                            <input type="email" name="email" id="iemail" placeholder="Email ou número de telefone">
+                        </div>       
+                        <div class="campo">
+                            <label for="isenha"></label>
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                        </div>
+                        <input type="submit" value="Entrar">
+                    </form>
+                    
+                </div>
+        </section>
     </main>
 </body>
 </html>
