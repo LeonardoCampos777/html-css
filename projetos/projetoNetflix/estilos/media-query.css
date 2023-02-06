@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+   body{
+      background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+      background-position: cover;
+      background-repeat: no-repeat;
+   }   
+
+   section#login{
+      border-radius: 20px;
+      width: 80%;
+      width: 600px;
+      width: 60vw;
+   }  
+
+
+}
+
+@media screen and (min-width: 992px){
+   body{
+      background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+      background-position: cover;
+      background-repeat: no-repeat;
+   } 
+     
+   section#login{
+      border-radius: 20px;
+   }  
+
+}
