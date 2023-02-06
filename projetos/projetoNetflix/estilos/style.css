@@ -17,8 +17,8 @@ body{
 }
 
 header > img{
-    width: 170px;
-    margin: 20px 0px;
+    width: 130px;
+    margin: 30px 0px;
     margin-left: 15px;
 }
 
@@ -28,7 +28,7 @@ main{
 
 main >section#login{
     background-color: black;
-    width: 400px;
+    width: 380px;
     height: 515px;
     margin: auto;
 
@@ -72,4 +72,22 @@ form >.check{
     display: inline-block;
 }
 
+main > section > article >p{
+    margin-top: 40px;
+    color: grey;
+}
 
+main > section > article >p > a{
+    color: white;
+    text-decoration: none;
+}
+
+main #paragrafo{
+    font-size: 0.8em;
+    margin-top: 20px;
+    
+}
+
+main #paragrafo > a{
+color: blue;
+}
