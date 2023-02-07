@@ -39,7 +39,7 @@ section#login{
     background-color: black;
     width: 300px;
     height: 515px;
-
+    transition: width .5s, height .5s;
 }
 
 main > section > div#tela{
