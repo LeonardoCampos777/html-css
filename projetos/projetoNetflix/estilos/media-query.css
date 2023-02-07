@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 650px) and (max-width: 992px){
+@media screen and (min-width: 600px) and (max-width: 992px){
    body{
       background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
       background-position: cover;
