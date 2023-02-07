@@ -24,19 +24,59 @@
       padding-left: 50px;
   }
 
-  div.campo >input {
+   div.campo >input {
+      width: 75%;
+      margin-left: 50px;
+}
+
+   form > input[type=submit]{
+      width: 75%;
+      margin-left: 50px;
+      margin-top: 30px;
+}
+
+   form > input[type=checkbox]{
+      margin-left:50px
+}
+
+}
+
+@media screen and (min-width:992px) {
+   body{
+      background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+      background-position: cover;
+      background-repeat: no-repeat;
+   }  
+
+   header >img{
+      width: 200px;
+      padding-left: 20px;
+   }
+
+   section#login{
+      background-color: rgba(0, 0, 0, 0.836);
+      border-radius: 10px;
+      width: 450px;
+      height: 650px;
+   }  
+
+   main > section > div#tela{
+      padding-top: 50px;
+      padding-left: 50px;
+  }
+
+   div.campo >input {
    width: 75%;
    margin-left: 50px;
 }
 
-form > input[type=submit]{
+   form > input[type=submit]{
    width: 75%;
    margin-left: 50px;
    margin-top: 30px;
 }
 
-form > input[type=checkbox]{
+   form > input[type=checkbox]{
    margin-left:50px
 }
-
 }
