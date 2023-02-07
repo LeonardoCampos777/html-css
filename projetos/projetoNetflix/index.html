@@ -22,11 +22,11 @@
                     <form action="login.php" method="post">
                         <div class="campo">
                             <label for="iemail"></label>
-                            <input type="email" name="email" id="iemail" placeholder="Email ou número de telefone">
+                            <input type="email" name="email" id="iemail" placeholder="Email ou número de telefone" required>
                         </div>       
                         <div class="campo">
                             <label for="isenha"></label>
-                            <input type="password" name="senha" id="isenha" placeholder="Senha">
+                            <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8">
                         </div>
                         <input type="submit" value="Entrar"><br>                   
                         <input type="checkbox" name="check" id="icheck">
