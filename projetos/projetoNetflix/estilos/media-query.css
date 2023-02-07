@@ -5,27 +5,40 @@
       background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
       background-position: cover;
       background-repeat: no-repeat;
-   }   
+   }  
+   
+   header >img{
+      width: 190px;
+      padding-left: 20px;
+   }
 
    section#login{
-      border-radius: 20px;
-      width: 80%;
-      width: 600px;
-      width: 60vw;
+      background-color: rgba(0, 0, 0, 0.836);
+      border-radius: 10px;
+      width: 50vw;
+      height: 85vh;
    }  
 
+   main > section > div#tela{
+      padding-top: 50px;
+      padding-left: 50px;
+  }
 
+  div.campo >input {
+   width: 75%;
+   margin-left: 50px;
 }
 
-@media screen and (min-width: 992px){
-   body{
-      background: url(../imagens/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-      background-position: cover;
-      background-repeat: no-repeat;
-   } 
-     
-   section#login{
-      border-radius: 20px;
-   }  
+form > input[type=submit]{
+   width: 75%;
+   margin-left: 50px;
+   margin-top: 30px;
+}
+
+form > input[type=checkbox]{
+   margin-left:50px
+}
+
+
 
 }
