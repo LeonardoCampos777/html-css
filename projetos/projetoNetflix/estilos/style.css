@@ -42,7 +42,7 @@ section#login{
     transition: width .5s, height .5s;
 }
 
-main > section > div#tela{
+main > section > div#entrar{
     color: white;
     font-size: 1.3em;
     margin-top: 10px;
