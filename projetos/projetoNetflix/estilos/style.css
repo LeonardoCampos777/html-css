@@ -101,3 +101,13 @@ main #paragrafo{
 main #paragrafo > a{
 color: blue;
 }
+
+footer{
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    color:rgb(253, 50, 50);
+    background-color: rgba(0, 0, 0, 0.336);
+
+}
