@@ -61,7 +61,7 @@ div.campo >input{
 }
 
 div.campo>input:focus-within{
-    background-color: rgb(253, 123, 1);
+    background-color: #E87C03;
 }
 
 form > input[type=submit]{
