@@ -39,6 +39,10 @@
       margin-left:50px
 }
 
+footer{
+   font-size: 1.1em;
+}
+
 }
 
 @media screen and (min-width:992px) {
@@ -79,4 +83,9 @@
    form > input[type=checkbox]{
    margin-left:50px
 }
+
+footer{
+   font-size: 1.1em;
+}
+
 }
