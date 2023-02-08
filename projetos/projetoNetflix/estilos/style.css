@@ -60,6 +60,9 @@ div.campo >input{
     padding: 10px;
 }
 
+div.campo>input:focus-within{
+    background-color: rgb(253, 123, 1);
+}
 
 form > input[type=submit]{
     border-radius: 5px;
