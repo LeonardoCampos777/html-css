@@ -73,6 +73,12 @@ div.campo >input{
     margin: 5px;
 }
 
+div >.funcao{
+    height: 40px;
+    width: 91%;
+    border-radius: 10px;
+}
+
 div.check{
     color: white;
     font-size: 1.2em;
@@ -100,10 +106,4 @@ div.comentario{
 textarea{
     width: 430px;
     margin-top: 5px;
-}
-
-div >.funcao{
-    height: 40px;
-    width: 91%;
-    border-radius: 10px;
 }
