@@ -52,6 +52,7 @@ section >div#login{
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    background-color: rgba(119, 203, 231, 0.493);
 
     position: absolute;
     top: 50%;
