@@ -44,7 +44,7 @@ header> div > p{
 main{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
 }
 
 section >div#login{
@@ -72,3 +72,34 @@ div.campo >input{
     border-radius: 5px;
     margin: 5px;
 }
+
+div.check{
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+div.indicacao{
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+div.comentario{
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+
+textarea{
+    width: 430px;
+    margin-top: 5px;
+}
+
+

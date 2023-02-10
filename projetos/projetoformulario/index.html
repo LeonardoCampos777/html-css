@@ -32,15 +32,43 @@
                     </div>
                     <div class="campo">
                         <label for="iidade">Idade</label><br>
-                        <input type="text" name="idade" id="iidade">
+                        <input type="number" name="idade" id="iidade" maxlength="2">
                     </div>
                     <div class="campo">
-                        <label for="funcao">Qual opção melhor descreve sua função atual?</label><br>
-                        <input type="text" name="funcao" id="ifuncao">
+                        <label for="ifuncao">Qual opção melhor descreve sua função atual?</label>
+                        <select name="funcao" id="ifuncao">
+                            <option value="Escolha" selected></option>
+                            <option value="Estudante">Estudante</option>
+                            <option value="trabalho em tempo integral">Trabalho em tempo integral</option>
+                            <option value="Não trabalho">Não Trabalho</option>
+                            <option value="Prefiro não comentar">Prefiro não comentar</option>
+                        </select>
                     </div>
+                    <div class="check">
+                            <label for="ichek">O que você gostaria de ver melhorado? <br> (Marque todos os que se aplicam)</label><br>
+                            <input type="checkbox" name="chek" id="ichek"> Front end Projetos <br>
+                            <input type="checkbox" name="check" id="ichek"> Back end Projetos <br>
+                            <input type="checkbox" name="check" id="ichek"> Desafios <br>
+                            <input type="checkbox" name="check" id="ichek"> Forum <br>
+                            <input type="checkbox" name="check" id="ichek"> Sala de ajudas <br>
+                            <input type="checkbox" name="check" id="ichek"> Vídeos <br>
+                            <input type="checkbox" name="check" id="ichek"> Encontros da cidade <br>
+                            <input type="checkbox" name="check" id="ichek"> Cursos adicionais <br>
+                    </div>
+                    <div class="indicacao">
+                        <label for="indicacao">Você recomendaria o nosso curso a um amigo?</label> <br>
+                        <input type="radio" name="indicacao" id="iidicacao"> Sim <br>
+                        <input type="radio" name="indicacao" id="iidicacao"> Não <br>
+                        <input type="radio" name="indicacao" id="iidicacao"> Talvez
+                    </div>
+                    <div class="comentario">
+                        <label for="imsg">Algum comentário ou sugestão?</label>
+                        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                    </div>   
                 </form>
             </div>
         </section>
     </main>
+
 </body>
 </html>
