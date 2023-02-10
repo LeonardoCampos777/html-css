@@ -24,8 +24,8 @@ header{
 
 header> div > h1{
     text-align: center;
-    padding-top: 20px;
-    margin-bottom: 5px;
+    padding-top: 50px;
+    margin-bottom: 30px;
     font-size: 2em;
     color: rgb(255, 255, 255);
 
@@ -44,11 +44,11 @@ header> div > p{
 main{
     position: relative;
     width: 96vw;
-    height: 100vh;
+    height: 162vh;
 }
 
 section >div#login{
-    height: 210%;
+    height: 120%;
     width: 100%;
     border-radius: 10px;
 
