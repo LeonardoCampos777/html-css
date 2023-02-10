@@ -43,7 +43,7 @@ header> div > p{
 
 main{
     position: relative;
-    width: 100vw;
+    width: 96vw;
     height: 150vh;
 }
 
@@ -61,8 +61,8 @@ section >div#login{
 .campo{
     color: white;
     font-size: 1.2em;
-   padding: 20px;
-   margin-left: 20px;
+   padding: 10px;
+   margin-left: 10px;
 }
 
 div.campo >input{
@@ -76,22 +76,22 @@ div.campo >input{
 div.check{
     color: white;
     font-size: 1.2em;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 div.indicacao{
     color: white;
     font-size: 1.2em;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 div.comentario{
     color: white;
     font-size: 1.2em;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 10px;
+    margin-left: 10px;
     margin-bottom: 5px;
     padding-bottom: 5px;
 
@@ -101,5 +101,3 @@ textarea{
     width: 430px;
     margin-top: 5px;
 }
-
-
