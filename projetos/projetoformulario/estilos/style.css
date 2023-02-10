@@ -44,11 +44,11 @@ header> div > p{
 main{
     position: relative;
     width: 96vw;
-    height: 162vh;
+    height: 145vh;
 }
 
 section >div#login{
-    height: 120%;
+    height: ;
     width: 100%;
     border-radius: 10px;
 
