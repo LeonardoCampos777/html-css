@@ -12,9 +12,10 @@ body,html{
 
 body{
     background: url(../imagens/developed.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     
 }
 
