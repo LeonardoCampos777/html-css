@@ -23,16 +23,16 @@
             <div id="login">
                 <form action="login.php" method="post">
                     <div class="campo">
-                        <label for="iname">Name</label><br>
-                        <input type="text" name="name" id="iname">
+                        <label for="iname">Nome</label><br>
+                        <input type="text" name="name" id="iname" placeholder="Digite seu nome">
                     </div>
                     <div class="campo">
                         <label for="iemail">Email</label><br>
-                        <input type="email" name="email" id="iemail">
+                        <input type="email" name="email" id="iemail" placeholder="Digite seu email">
                     </div>
                     <div class="campo">
                         <label for="iidade">Idade</label><br>
-                        <input type="number" name="idade" id="iidade" maxlength="2">
+                        <input type="number" name="idade" id="iidade" maxlength="2" placeholder="Idade">
                     </div>
                     <div class="campo">
                         <label for="ifuncao">Qual opção melhor descreve sua função atual?</label><br>
@@ -63,8 +63,11 @@
                     </div>
                     <div class="comentario">
                         <label for="imsg">Algum comentário ou sugestão?</label>
-                        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
-                    </div>   
+                        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Escreva aqui seu comentario..."></textarea>
+                    </div>
+                    <div class="submit">
+                        <input class="enviar" type="submit" value="Enviar">
+                    </div>
                 </form>
             </div>
         </section>

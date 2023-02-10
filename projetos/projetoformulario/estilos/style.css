@@ -44,7 +44,7 @@ header> div > p{
 main{
     position: relative;
     width: 96vw;
-    height: 200vh;
+    height: 146vh;
 }
 
 section >div#login{
@@ -106,4 +106,18 @@ div.comentario{
 textarea{
     width: 430px;
     margin-top: 5px;
+}
+
+div.submit{
+    margin-left: 20px;
+}
+
+div>.enviar{
+    width: 431px;
+    height: 50px;
+    font-family:'Mulish', sans-serif;
+    font-size: 1.1em;
+    background-color: #37AF65;
+    color: white;
+    cursor: pointer;
 }
