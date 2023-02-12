@@ -54,6 +54,8 @@ section >div#login{
     width: 350px;
     border-radius: 10px;
     background-color: rgba(119, 203, 231, 0.493);
+    box-shadow: 1px 3px 10px 4px #b0ffe8;
+
 
     position: absolute;
     top: 50%;
