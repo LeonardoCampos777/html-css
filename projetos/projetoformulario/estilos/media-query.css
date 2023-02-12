@@ -1,15 +1,28 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:926px){
+@media screen and (min-width: 600px) and (max-width: 992px){
+body{
+    background: url(../imagens/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 
-    body{
-        background: url(../imagens/img4.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        
-    }   
+}
 
-    
+
+main{
+    height: 1150px;
+}
+
+div >.funcao{
+
+     width: 95%;
+
+}
+
+section > div#login{
+    height: 1100px;
+    width: 90vw;
+}
+
 }
