@@ -26,3 +26,30 @@ section > div#login{
 }
 
 }
+
+
+@media screen and (min-width:992px){
+body{
+    background: url(../imagens/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+main{
+    height: 1150px;
+}
+
+div >.funcao{
+
+     width: 95%;
+
+}
+
+section > div#login{
+    height: 1100px;
+    width: 60vw;
+}
+    
+} 
