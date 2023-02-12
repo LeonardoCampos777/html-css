@@ -1,8 +1,8 @@
-BOA FILHO DA PUTA CONSEGUIU FAZER
-NÃO DESISTE TU VAI SER BRABO UM DIA 
-VAI SER O MELHOR DESENVOLVEDOR 
+00:57
+consegui terminar essa porra, to mo felizão 
+estou me dedicando muito e estou trabalhando todo dia para realizar meu sonho
+e eu vou conseguir, ninguem me para 
 
-NÃO DESISTA DOS SEUS SONHOS
+PROJETO DESENVOLVIDO POR LEONARDO CAMPOS 
 
-FOI MUITO ESTRESSANTE MAS CONSEGUI PORRAAAAA
-VAI TOMAR NO CU !!!!!
+Developed by LEONARDO CAMPOS 
