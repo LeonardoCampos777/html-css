@@ -6,7 +6,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
 }
 
 
@@ -15,9 +14,7 @@ main{
 }
 
 div >.funcao{
-
-     width: 95%;
-
+    width: 95%;
 }
 
 section > div#login{
@@ -33,8 +30,7 @@ body{
     background: url(../imagens/img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    
+    background-position: center center;  
 }
 
 main{
@@ -42,9 +38,7 @@ main{
 }
 
 div >.funcao{
-
-     width: 95%;
-
+    width: 95%;
 }
 
 section > div#login{

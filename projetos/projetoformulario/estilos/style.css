@@ -67,8 +67,8 @@ section >div#login{
 .campo{
     color: white;
     font-size: 1.2em;
-   padding: 10px;
-   margin-left: 10px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 div.campo >input{
