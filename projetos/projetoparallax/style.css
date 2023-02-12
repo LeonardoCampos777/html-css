@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+main > div >h1{
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    font-size: 2.5em;
+}
+
+
+main >div.img1{
+    background: url(imagens/wall1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main >div.img1{
+    height: 100vh;
+}
+
+
+main >div.img2{
+    background: url(imagens/wall2.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main >div.img2{
+    height: 500px;
+}
+
+main >div.img3{
+    background: url(imagens/wall3.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main >div.img3{
+    height: 500px;
+}
+
+main >div.img4{
+    background: url(imagens/wall1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main >div.img4{
+    height: 100vh;
+}
+
+main >div.paragrafo{
+    font-family: 'Mulish', sans-serif;
+    height: 300px;
+    text-align: justify;
+    padding: 25px;
+    background-color: #282E34;
+    color: white;
+
+}
