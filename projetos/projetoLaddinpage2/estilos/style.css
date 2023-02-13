@@ -11,7 +11,7 @@ body,html{
 }
 
 body{
-
+    background-color: whitesmoke;
 }
 
 header{
@@ -59,4 +59,10 @@ header >section >nav >a{
 header >section >nav >a:hover{
     background-color: whitesmoke;
     color: black;
+}
+
+main section.normal{
+    background-color: whitesmoke;
+    height: 500px;
+    margin-top: 50px;
 }
