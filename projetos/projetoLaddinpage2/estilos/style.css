@@ -25,7 +25,7 @@ header{
 
 header > section >h1{
     color: white;
-    padding: 50px;
+    padding: 25px;
     padding-top: 105px;
     font-size: 2em;
     text-align: center;
@@ -34,7 +34,7 @@ header > section >h1{
 
 header > section >p{
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
     padding: 20px;
     text-align: center;
     font-size: 1.2em;
@@ -62,9 +62,8 @@ header >section >nav >a:hover{
 }
 
 main section.normal{
-    background-color: whitesmoke;
+    background-color: #EAEAEA;
     height: 500px;
-    margin-top: 30px;
 }
 
 main section.normal>h1,p{
