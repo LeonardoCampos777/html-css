@@ -26,7 +26,7 @@ header{
 header > section >h1{
     color: white;
     padding: 25px;
-    padding-top: 105px;
+    padding-top: 70px;
     font-size: 2em;
     text-align: center;
 
@@ -66,8 +66,14 @@ main section.normal{
     height: 500px;
 }
 
-main section.normal>h1,p{
+main section.normal>h1{
     text-align: center;
     padding: 30px;
     padding-top: 20px;
+    font-size: 1.5em;
+}
+
+main section.normal>p{
+    text-align: center;
+    font-size: 1.2em;
 }
