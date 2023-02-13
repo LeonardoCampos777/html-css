@@ -43,7 +43,7 @@ main >div.img2{
 main >div.img3{
     background: url(imagens/wall3.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
     background-size: cover;
     background-attachment: fixed;
 }
