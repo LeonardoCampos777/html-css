@@ -92,7 +92,8 @@ main >section.menu{
 ul > li.teste1{
     background-color: white;
     width: 90%;
-    height: 550px;
+    height: 485px;
+    list-style: none;
 
     position: absolute;
     transform: translate(5%, 10%);
@@ -104,6 +105,8 @@ ul > li.teste2{
     background-color: white;
     width: 90%;
     height: 550px;
+    list-style: none; 
+
     position: absolute;
     transform: translate(5%, 116%);
 }
@@ -112,9 +115,21 @@ ul > li.teste3{
     background-color: white;
     width: 90%;
     height: 550px;
+    list-style: none; 
+
     position: absolute;
     transform: translate(5%, 222%);
 }
+
+main >section > ul > li >h1{
+    padding: 30px;
+    text-align: center;
+}
+
+main >section > ul > li >p{
+    text-align: center;
+}
+
 
 
 main >section >article{
