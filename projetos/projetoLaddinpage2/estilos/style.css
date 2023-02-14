@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    height:600px;
+    height:435px;
     background: url(../imagens/projeto4.jpg);
     background-position: left center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ header >section >nav >a:hover{
 
 main section.normal{
     background-color: #EAEAEA;
-    height: 500px;
+    height: 400px;
 }
 
 main section.normal>h1{
