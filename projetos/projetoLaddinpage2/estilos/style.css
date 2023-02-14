@@ -80,4 +80,41 @@ main section.normal>p{
 
 main >section.menu{
     background-color: rgb(86, 92, 99);
+    height: 1200px;
+
+    position: relative;
 }
+
+ul > li.teste1{
+    background-color: white;
+    width: 90%;
+    height: 350px;
+
+    position: absolute;
+    transform: translate(5%, 10%);
+}
+
+
+
+ul > li.teste2{
+    background-color: white;
+    width: 90%;
+    height: 350px;
+    position: absolute;
+    transform: translate(5%, 116%);
+}
+
+ul > li.teste3{
+    background-color: white;
+    width: 90%;
+    height: 350px;
+    position: absolute;
+    transform: translate(5%, 222%);
+}
+
+
+main >section >article{
+    background-color: white;
+
+}
+
