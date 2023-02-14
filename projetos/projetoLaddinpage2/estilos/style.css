@@ -83,7 +83,7 @@ main section.normal>p{
 }
 
 main >section.menu{
-    background-color: rgb(86, 92, 99);
+    background-color: #333333;
     height: 1810px;
 
     position: relative;
