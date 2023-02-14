@@ -84,7 +84,7 @@ main section.normal>p{
 
 main >section.menu{
     background-color: #333333;
-    height: 1810px;
+    height: 1600px;
 
     position: relative;
 }
@@ -99,12 +99,10 @@ ul > li.teste1{
     transform: translate(5%, 10%);
 }
 
-
-
 ul > li.teste2{
     background-color: white;
     width: 90%;
-    height: 550px;
+    height: 485px;
     list-style: none; 
 
     position: absolute;
@@ -114,7 +112,7 @@ ul > li.teste2{
 ul > li.teste3{
     background-color: white;
     width: 90%;
-    height: 550px;
+    height: 485px;
     list-style: none; 
 
     position: absolute;
