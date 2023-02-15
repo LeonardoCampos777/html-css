@@ -29,6 +29,7 @@ header > section >h1{
     padding-top: 70px;
     font-size: 2em;
     text-align: center;
+    text-shadow: 2px 1px black;
 
 }
 
@@ -38,6 +39,7 @@ header > section >p{
     padding: 20px;
     text-align: center;
     font-size: 1.2em;
+    text-shadow: 2px 2px black;
 }
 
 header >section >nav{
@@ -192,4 +194,15 @@ main >section > aside >p{
     font-size: 1.2em;
     text-align: center;
     color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer >h1{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
 }
