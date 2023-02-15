@@ -164,3 +164,21 @@ main >section >aside.blue >p{
     font-size: 1.2em;
     color: white;
 }
+
+main > section >aside{
+    background-color: #333333;
+    height: 325px;
+}
+
+main >section > aside >h1{
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+main >section > aside >p{
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
