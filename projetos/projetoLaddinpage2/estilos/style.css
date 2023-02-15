@@ -149,14 +149,14 @@ main >section >article, aside.blue >h1 ,p{
 }
 
 main >section >article, aside.blue >h1{
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 main >section >article, aside.blue >p{
     font-size: 1.2em;
 }
 
 main >section > aside.blue >h1{
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: white;
 }
 
@@ -172,7 +172,7 @@ main > section >aside{
 
 main >section > aside >h1{
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
     color: white;
 }
