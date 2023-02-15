@@ -172,6 +172,10 @@ main >section >aside.blue >p{
     color: white;
 }
 
+main >section > aside >p.email{
+    padding: 10px;
+}
+
 main > section >aside{
     background-color: #333333;
     height: 360px;
