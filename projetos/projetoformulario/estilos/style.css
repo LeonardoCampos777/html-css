@@ -29,6 +29,7 @@ header> div > h1{
     margin-bottom: 30px;
     font-size: 2em;
     color: rgb(255, 255, 255);
+    text-shadow: 0px 2px black;
 
 }
 
@@ -39,6 +40,7 @@ header> div > p{
     padding: 10px;
     padding-top: 5px;
     margin-bottom: 20px;
+    text-shadow: 0px 2px black;
 
 }
 
@@ -53,8 +55,8 @@ section >div#login{
     height: 1095px;
     width: 350px;
     border-radius: 10px;
-    background-color: rgba(119, 203, 231, 0.493);
-    box-shadow: 1px 3px 10px 4px #b0ffe8;
+    background-color: rgb(69 138 161 / 49%);
+    box-shadow: 1px 3px 10px 3px #b0ffe8;
 
 
     position: absolute;
@@ -69,6 +71,7 @@ section >div#login{
     font-size: 1.2em;
     padding: 10px;
     margin-left: 10px;
+    text-shadow: 0px 2px black;
 }
 
 div.campo >input{
@@ -91,6 +94,7 @@ div.check{
     font-size: 1.2em;
     padding: 10px;
     margin-left: 10px;
+    text-shadow: 0px 2px black;
 }
 
 div.indicacao{
@@ -98,6 +102,7 @@ div.indicacao{
     font-size: 1.2em;
     padding: 10px;
     margin-left: 10px;
+    text-shadow: 0px 2px black;
 }
 
 div.comentario{
@@ -107,6 +112,7 @@ div.comentario{
     margin-left: 10px;
     margin-bottom: 5px;
     padding-bottom: 5px;
+    text-shadow: 0px 2px black;
 
 }
 
@@ -128,6 +134,7 @@ div>.enviar{
     background-color: #37AF65;
     color: white;
     cursor: pointer;
+    text-shadow: 0px 2px black;
 }
 
 div.campo >input{
