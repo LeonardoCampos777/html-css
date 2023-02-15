@@ -137,6 +137,11 @@ main >section >article{
 
 }
 
+main >section >article >h1{
+    padding: 35px;
+    font-size: 1.5em;
+}
+
 main > section >aside.blue{
     background-color: #2690D4;
     height: 325px;
@@ -158,6 +163,8 @@ main >section >article, aside.blue >p{
 main >section > aside.blue >h1{
     font-size: 1.8em;
     color: white;
+    padding: 45px;
+
 }
 
 main >section >aside.blue >p{
