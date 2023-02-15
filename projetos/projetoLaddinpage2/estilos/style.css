@@ -132,13 +132,14 @@ main >section > ul > li >p{
 
 main >section >article{
     background-color: white;
-    height: 250px;
+    height: 325px;
+    padding: 10px;
 
 }
 
 main > section >aside.blue{
     background-color: #2690D4;
-    height: 250px;
+    height: 325px;
     padding: 10px;
 }
 
@@ -152,4 +153,14 @@ main >section >article, aside.blue >h1{
 }
 main >section >article, aside.blue >p{
     font-size: 1.2em;
+}
+
+main >section > aside.blue >h1{
+    font-size: 1.5em;
+    color: white;
+}
+
+main >section >aside.blue >p{
+    font-size: 1.2em;
+    color: white;
 }
