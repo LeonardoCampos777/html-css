@@ -132,19 +132,19 @@ main >section > ul > li >p{
 
 main >section >article{
     background-color: white;
-    height: 325px;
+    height: 360px;
     padding: 10px;
 
 }
 
 main >section >article >h1{
-    padding: 35px;
+    padding: 30px;
     font-size: 1.5em;
 }
 
 main > section >aside.blue{
     background-color: #2690D4;
-    height: 325px;
+    height: 360px;
     padding: 10px;
 }
 
@@ -174,7 +174,7 @@ main >section >aside.blue >p{
 
 main > section >aside{
     background-color: #333333;
-    height: 325px;
+    height: 360px;
 }
 
 main >section > aside >h1{
@@ -184,7 +184,7 @@ main >section > aside >h1{
     color: white;
 }
 main >section > aside >p{
-    padding: 20px;
+    padding: 35px;
     font-size: 1.2em;
     text-align: center;
     color: white;
