@@ -1,0 +1,37 @@
+@charset "UFT-8";
+
+@media screen and (min-width:500px) and (max-width:700px){
+
+    main >section.menu {
+        background-color: #333333;
+        height: 1785px;
+        position: relative;
+    }
+
+    ul > li.teste1 {
+        background-color: white;
+        width: 90%;
+        height: 540px;
+        list-style: none;
+        position: absolute;
+        transform: translate(5%, 10%);
+    }
+
+    ul > li.teste2 {
+        background-color: white;
+        width: 90%;
+        height: 540px;
+        list-style: none;
+        position: absolute;
+        transform: translate(5%, 116%);
+    }
+
+    ul > li.teste3 {
+        background-color: white;
+        width: 90%;
+        height: 535px;
+        list-style: none;
+        position: absolute;
+        transform: translate(5%, 224%);
+    }
+}
