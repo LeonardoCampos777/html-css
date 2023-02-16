@@ -35,3 +35,49 @@
         transform: translate(5%, 224%);
     }
 }
+
+@media screen and (min-width:700px){
+    main > section.normal{
+        height: 300px;
+    }
+
+    main >.normal > p{
+        columns: 2;
+        
+    }
+
+    main > section.menu{
+        height: 560px;
+    }
+
+    ul > li.teste1{
+        width: 30%;
+
+        position: absolute;
+        transform: translate(8%, 10%);
+    }
+
+    ul > li.teste1 >h1{
+        padding: 10px;
+        padding-top: 32px;
+    }
+
+    ul > li.teste2{
+        width: 30%;
+
+        position: absolute;
+        transform: translate(115%, 10%);
+
+    }
+
+    ul > li.teste3{
+        width: 30%;
+
+        position: absolute;
+        transform: translate(223%, 10%);
+    }
+}
+
+
+
+
