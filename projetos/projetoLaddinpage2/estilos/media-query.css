@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (min-width:700px){
+@media screen and (min-width:700px) and (max-width:900px){
     main > section.normal{
         height: 300px;
     }
@@ -62,6 +62,7 @@
         padding-top: 32px;
     }
 
+
     ul > li.teste2{
         width: 30%;
 
@@ -77,6 +78,8 @@
         transform: translate(223%, 10%);
     }
 }
+
+
 
 
 
