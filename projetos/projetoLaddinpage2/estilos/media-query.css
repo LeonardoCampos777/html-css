@@ -77,9 +77,35 @@
         position: absolute;
         transform: translate(223%, 10%);
     }
+
+    section.grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    main > section >aside.blue {
+        background-color: #2690D4;
+        height: 360px;
+        padding: 10px;
+        width: 50vw;
+    }
+
+    main > section >aside {
+        background-color: #333333;
+        height: 360px;
+        width: 48vw;
+    }
+
+    footer{
+        height: 100px;
+        padding: 30px;
+    }
+
 }
 
+@media screen and (min-width:900px){
 
+}
 
 
 
