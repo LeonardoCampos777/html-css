@@ -193,10 +193,16 @@ main >section > aside >p{
 footer{
     background-color: black;
     color: white;
+    padding: 15px;
 }
 
 footer >h1{
     font-size: 1.2em;
     text-align: center;
     padding: 5px;
+}
+
+footer >h1 >a{
+    color: #2fbdeb;
+    text-decoration: none;
 }
