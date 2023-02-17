@@ -1,6 +1,10 @@
 @charset "UFT-8";
 
 @media screen and (min-width:500px) and (max-width:700px){
+    main > section.normal {
+        background-color: #EAEAEA;
+        height: 350px;
+    }
 
     main >section.menu {
         background-color: #333333;
@@ -79,6 +83,7 @@
     }
 
     section.grid{
+        background-color: #333333;
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     }
@@ -94,6 +99,7 @@
         background-color: #333333;
         height: 360px;
         width: 48vw;
+        padding-top: 35px;
     }
 
     footer{
