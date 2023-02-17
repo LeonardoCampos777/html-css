@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (min-width:700px) and (max-width:900px){
+@media screen and (min-width:700px) and (max-width:1300px){
     main > section.normal{
         height: 300px;
     }
@@ -103,7 +103,7 @@
 
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1300px){
 
 }
 
