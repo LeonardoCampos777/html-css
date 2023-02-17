@@ -110,7 +110,72 @@
 }
 
 @media screen and (min-width:1300px){
+    main > section.normal{
+        height: 250px;
+    }
 
+
+    main > section.menu{
+        height: 560px;
+        width: 98.9vw;
+    }
+
+    ul > li.teste1{
+        width: 18%;
+
+        position: absolute;
+        transform: translate(127%, 8%);
+    }
+
+    ul > li.teste2{
+        width: 18%;
+
+        position: absolute;
+        transform: translate(234%, 8%);
+    }
+
+    ul > li.teste3{
+        width: 18%;
+
+        position: absolute;
+        transform: translate(341%, 8%);
+    }
+
+    main >section >article{
+        background-color: white;
+        height: 250px;
+    }
+
+    section.grid{
+        background-color: #333333;
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    main > section >aside.blue {
+        background-color: #2690D4;
+        height: 360px;
+        padding: 10px;
+        width: 50vw;
+    }
+
+    main > section >aside {
+        background-color: #333333;
+        height: 360px;
+        width: 48.7vw;
+    }
+
+    main >section > aside >h1 {
+        padding: 60px;
+        font-size: 1.8em;
+        text-align: center;
+        color: white;
+    }
+
+    footer{
+        height: 100px;
+        padding: 30px;
+    }
 }
 
 
