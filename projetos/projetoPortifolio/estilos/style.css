@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    height: 100vh;
+    background-color: rgb(36, 31, 31);
+    color: white;
+    background: url(../imagens/wall1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header >h2{
+    font-family:'Rubik', sans-serif;
+    color: rgb(236, 52, 98);
+    text-align: center;
+    padding-top: 30vh;
+
+}
+
+header >h1{
+    font-family:'Roboto Slab', serif;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+header >p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header >.menu2 >nav{
+    font-family:'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 1.5em;
+}
+
+header >.menu2 >nav >a{
+    border: 1px  solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
