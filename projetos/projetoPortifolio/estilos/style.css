@@ -17,6 +17,8 @@ header{
     background: url(../imagens/wall1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    position: relative;
 }
 
 header >h2{
@@ -39,6 +41,7 @@ header >p{
     text-align: center;
 }
 
+
 header >.menu2 >nav{
     font-family:'Rubik', sans-serif;
     text-align: center;
@@ -51,4 +54,30 @@ header >.menu2 >nav >a{
     color: white;
     text-decoration: none;
     padding: 15px;
+}
+
+menu#redes-sociais{
+    position: absolute;
+    
+    top: 74%;
+    left: 38.5%;
+}
+
+menu#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+main{
+    background-color: #45567D;
+    height: 100vh;
+}
+
+main > section > h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    padding: 50px;
 }
