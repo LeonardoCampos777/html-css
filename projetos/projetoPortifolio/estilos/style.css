@@ -68,6 +68,11 @@ menu#redes-sociais img{
     border-radius: 50%;
 }
 
+menu#redes-sociais img:hover{
+    transform: translate(4px, -4px);
+    transition: transform .2s;
+}
+
 main{
     background-color: #3b516e;
     height: 1150px;
@@ -87,9 +92,6 @@ main > section >ul >li > a >img{
 
 }
 
-ul > li.projeto1{
-    background-color: white;
-}
 
 ul > li.projeto1{
     font-family: 'Roboto Slab', serif;
@@ -101,6 +103,7 @@ ul > li.projeto1{
     position: absolute;
     transform: translate(45%, 0%);
 }
+
 
 ul > li.projeto2{
     font-family: 'Roboto Slab', serif;
@@ -156,6 +159,7 @@ ul > li.projeto6{
     position: absolute;
     transform: translate(292%, 120%);
 }
+
 
 footer{
     background-color: #303841;
