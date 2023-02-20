@@ -74,7 +74,7 @@ menu#redes-sociais img:hover{
 
 main{
     background-color: #3b516e;
-    height: 2800px;
+    height: 2880px;
     position: relative;
 }
 
@@ -87,78 +87,99 @@ main > section > h1{
 }
 
 main > section >ul >li > a >img{
-    width: 74%;
+    width: 100%;
 }
 
 ul > li.projeto1{
-    background-color: white;
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
+
 
     position: absolute;
-    transform: translate(0%, 0%);
+    transform: translate(16%, 0%);
 }
+
+main >section > ul > li >h1 {
+    padding: 1px;
+    text-align: center;
+    height: 50px;
+}
+
 
 ul > li.projeto2{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
+
 
     position: absolute;
-    transform: translate(0%, 107%);
+    transform: translate(16%, 106%);
 }
 
 ul > li.projeto3{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
+
 
     position: absolute;
-    transform: translate(0%, 215%);
+    transform: translate(16%, 212%);
 }
 
 ul > li.projeto4{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
 
     position: absolute;
-    transform: translate(0%, 324%);
+    transform: translate(16%, 317%);
 }
 
 ul > li.projeto5{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
+
 
     position: absolute;
-    transform: translate(0%, 434%);
+    transform: translate(16%, 424%);
 }
 
 
 ul > li.projeto6{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    background-color: white;
+    width: 74%;
+    color: black;
     list-style: none;
     text-align: center;
-    width: 100%;
+
 
     position: absolute;
-    transform: translate(0%, 544%);
+    transform: translate(16%, 531%);
 }
 
 main >section > ul > li >h1{
     padding: 1px;
     text-align: center;
+}
+
+ul > li.teste1 >a{
+    background-color: white;
 }
