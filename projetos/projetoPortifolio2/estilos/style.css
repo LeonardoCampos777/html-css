@@ -183,3 +183,38 @@ main >section > ul > li >h1{
 ul > li.teste1 >a{
     background-color: white;
 }
+
+footer{
+    background-color: #303841;
+    height: 600px;
+}
+
+footer > section.trabalho > h1{
+    color: white;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 160px;
+}
+
+
+footer> section.trabalho > p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    
+}
+
+footer> section.rodape>h1{
+    color: white;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.rodape > h1 >a{
+    text-decoration: none;
+    color: #2fbdeb;
+}
