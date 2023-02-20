@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992){
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    height: 100vh;
+    background-color: rgb(36, 31, 31);
+    color: white;
+    background: url(../imagens/wall1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header >h2{
+    font-family:'Rubik', sans-serif;
+    color: rgb(236, 52, 98);
+    text-align: center;
+    padding-top: 30vh;
+
+}
+
+header >h1{
+    font-family:'Roboto Slab', serif;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+header >p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+header >.menu2 >nav{
+    font-family:'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 1.5em;
+}
+
+header >.menu2 >nav >a{
+    border: 1px  solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+menu#redes-sociais{
+    position: absolute;
+    
+    top: 74%;
+    left: 38.5%;
+}
+
+menu#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+main{
+    background-color: #3b516e;
+    height: 1150px;
+    position: relative;
+}
+
+main > section > h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    padding: 50px;
+}
+
+main > section >ul >li > a >img{
+    width: 350px;
+
+}
+
+ul > li.projeto1{
+    background-color: white;
+}
+
+ul > li.projeto1{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(45%, 0%);
+}
+
+ul > li.projeto2{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(167%, 0%);
+}
+
+ul > li.projeto3{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(292%, 0%);
+}
+
+ul > li.projeto4{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(45%, 120%);
+}
+
+ul > li.projeto5{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(167%, 120%);
+}
+
+ul > li.projeto6{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(292%, 120%);
+}
+
+footer{
+    background-color: #303841;
+    height: 600px;
+}
+
+footer > section.trabalho > h1{
+    color: white;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 160px;
+    
+}
+
+footer> section.trabalho > p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    
+}
+
+footer> section.rodape>h1{
+    color: #2fbdeb;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 200px;
+}
+}
