@@ -57,7 +57,7 @@ header >.menu2 >nav >a{
 menu#redes-sociais{
     position: absolute;
     
-    top: 74%;
+    top: 84%;
     left: 11.5%;
 }
 
@@ -91,6 +91,7 @@ main > section >ul >li > a >img{
 }
 
 ul > li.projeto1{
+    background-color: white;
     font-family: 'Roboto Slab', serif;
     color: white;
     list-style: none;
@@ -155,4 +156,9 @@ ul > li.projeto6{
 
     position: absolute;
     transform: translate(0%, 544%);
+}
+
+main >section > ul > li >h1{
+    padding: 1px;
+    text-align: center;
 }
