@@ -185,8 +185,13 @@ footer> section.trabalho > p{
 }
 
 footer> section.rodape>h1{
-    color: #2fbdeb;
+    color: white;
     font-family:'Roboto Slab', serif;
     text-align: center;
     padding-top: 200px;
+}
+
+.rodape > h1 >a{
+    text-decoration: none;
+    color: #2fbdeb;
 }
