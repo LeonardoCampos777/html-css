@@ -70,7 +70,7 @@ menu#redes-sociais img{
 }
 
 main{
-    background-color: #45567D;
+    background-color: #3b516e;
     height: 100vh;
 }
 
@@ -80,4 +80,46 @@ main > section > h1{
     font-family: 'Roboto Slab', serif;
     font-size: 2em;
     padding: 50px;
+}
+
+main > section >ul >li > a >img{
+    width: 350px;
+
+}
+
+ul > li.projeto1{
+    background-color: white;
+}
+
+ul > li.projeto1{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(45%, 0%);
+}
+
+ul > li.projeto2{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(175%, 0%);
+}
+
+ul > li.projeto3{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(304%, 0%);
 }
