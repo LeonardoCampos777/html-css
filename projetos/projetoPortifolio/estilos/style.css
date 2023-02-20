@@ -18,7 +18,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 
-    position: relative;
 }
 
 header >h2{
@@ -71,7 +70,8 @@ menu#redes-sociais img{
 
 main{
     background-color: #3b516e;
-    height: 200vh;
+    height: 1150px;
+    position: relative;
 }
 
 main > section > h1{
@@ -155,4 +155,34 @@ ul > li.projeto6{
 
     position: absolute;
     transform: translate(292%, 120%);
+}
+
+footer{
+    background-color: #303841;
+    height: 600px;
+}
+
+footer > section.trabalho > h1{
+    color: white;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 160px;
+    
+}
+
+footer> section.trabalho > p{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+    
+}
+
+footer> section.rodape>h1{
+    color: #2fbdeb;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    padding-top: 200px;
 }
