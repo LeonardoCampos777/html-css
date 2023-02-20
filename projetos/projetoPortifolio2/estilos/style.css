@@ -7,39 +7,38 @@
 }
 
 body{
-
+    height: 100vh;
 }
 
 header{
     height: 100vh;
-    background-color: rgb(36, 31, 31);
-    color: white;
     background: url(../imagens/wall1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: center center;
 }
 
 header >h2{
     font-family:'Rubik', sans-serif;
     color: rgb(236, 52, 98);
     text-align: center;
-    padding-top: 30vh;
-
+    padding-top: 15vh;
 }
 
 header >h1{
     font-family:'Roboto Slab', serif;
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
+    padding-top: 20px;
 }
 
 header >p{
     font-size: 1.5em;
     text-align: center;
+    color: white;
+    padding-top: 15px;
 }
-
 
 header >.menu2 >nav{
     font-family:'Rubik', sans-serif;
@@ -59,11 +58,11 @@ menu#redes-sociais{
     position: absolute;
     
     top: 74%;
-    left: 38.5%;
+    left: 11.5%;
 }
 
 menu#redes-sociais img{
-    width: 50px;
+    width: 10vw;
     margin: 10px;
     border-radius: 50%;
 }
@@ -75,7 +74,7 @@ menu#redes-sociais img:hover{
 
 main{
     background-color: #3b516e;
-    height: 1150px;
+    height: 2800px;
     position: relative;
 }
 
@@ -88,109 +87,72 @@ main > section > h1{
 }
 
 main > section >ul >li > a >img{
-    width: 350px;
+    width: 74%;
 }
-
 
 ul > li.projeto1{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(45%, 0%);
+    transform: translate(0%, 0%);
 }
-
 
 ul > li.projeto2{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(167%, 0%);
+    transform: translate(0%, 107%);
 }
 
 ul > li.projeto3{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(292%, 0%);
+    transform: translate(0%, 215%);
 }
 
 ul > li.projeto4{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(45%, 120%);
+    transform: translate(0%, 324%);
 }
 
 ul > li.projeto5{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(167%, 120%);
+    transform: translate(0%, 434%);
 }
+
 
 ul > li.projeto6{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
+    color: white;
     list-style: none;
     text-align: center;
-    padding: 10px;
+    width: 100%;
 
     position: absolute;
-    transform: translate(292%, 120%);
-}
-
-
-footer{
-    background-color: #303841;
-    height: 600px;
-}
-
-footer > section.trabalho > h1{
-    color: white;
-    font-family:'Roboto Slab', serif;
-    text-align: center;
-    font-size: 3.5em;
-    padding-top: 160px;
-    
-}
-
-footer> section.trabalho > p{
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-size: 1.5em;
-    padding-top: 20px;
-    
-}
-
-footer> section.rodape>h1{
-    color: white;
-    font-family:'Roboto Slab', serif;
-    text-align: center;
-    padding-top: 200px;
-}
-
-.rodape > h1 >a{
-    text-decoration: none;
-    color: #2fbdeb;
+    transform: translate(0%, 544%);
 }
