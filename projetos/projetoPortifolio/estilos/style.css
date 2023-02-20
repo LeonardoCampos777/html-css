@@ -71,7 +71,7 @@ menu#redes-sociais img{
 
 main{
     background-color: #3b516e;
-    height: 100vh;
+    height: 200vh;
 }
 
 main > section > h1{
@@ -110,7 +110,7 @@ ul > li.projeto2{
     padding: 10px;
 
     position: absolute;
-    transform: translate(175%, 0%);
+    transform: translate(167%, 0%);
 }
 
 ul > li.projeto3{
@@ -121,5 +121,38 @@ ul > li.projeto3{
     padding: 10px;
 
     position: absolute;
-    transform: translate(304%, 0%);
+    transform: translate(292%, 0%);
+}
+
+ul > li.projeto4{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(45%, 120%);
+}
+
+ul > li.projeto5{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(167%, 120%);
+}
+
+ul > li.projeto6{
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+    position: absolute;
+    transform: translate(292%, 120%);
 }
