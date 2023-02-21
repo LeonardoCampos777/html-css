@@ -18,7 +18,6 @@ header{
     background: url(../imagens/wall1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 header>.cabeçalho-link{
@@ -107,7 +106,7 @@ main > section > h1{
     padding: 50px;
 }
 
-main > section >ul >li > a >img{
+main > section > ul > li > a > img{
     width: 350px;
 }
 
@@ -191,26 +190,24 @@ footer > section.trabalho > h1{
     text-align: center;
     font-size: 3.5em;
     padding-top: 160px;
-    
 }
 
-footer> section.trabalho > p{
+footer > section.trabalho > p{
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 1.5em;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 
-footer> section.rodape>h1{
+footer > section.rodape>h1{
     color: white;
     font-family:'Roboto Slab', serif;
     text-align: center;
     padding-top: 200px;
 }
 
-.rodape > h1 >a{
+.rodape > h1 > a{
     text-decoration: none;
     color: #2fbdeb;
 }

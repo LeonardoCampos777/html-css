@@ -86,7 +86,7 @@ main > section > h1{
     padding: 50px;
 }
 
-main > section >ul >li > a >img{
+main > section > ul > li > a > img{
     width: 100%;
 }
 
@@ -98,7 +98,6 @@ ul > li.projeto1{
     list-style: none;
     text-align: center;
 
-
     position: absolute;
     transform: translate(16%, 0%);
 }
@@ -108,7 +107,6 @@ main >section > ul > li >h1 {
     text-align: center;
     height: 50px;
 }
-
 
 ul > li.projeto2{
     font-family: 'Roboto Slab', serif;
