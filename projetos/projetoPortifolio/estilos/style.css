@@ -46,7 +46,6 @@ header >h2{
     color: rgb(236, 52, 98);
     text-align: center;
     padding-top: 30vh;
-
 }
 
 header >h1{
@@ -79,7 +78,7 @@ header >.menu2 >nav >a{
 menu#redes-sociais{
     position: absolute;
     
-    top: 74%;
+    top: 80%;
     left: 38.5%;
 }
 
