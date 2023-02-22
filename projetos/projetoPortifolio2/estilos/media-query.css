@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width:600px) and (max-width:768px){
+    header >h2{
+        padding-top: 30vh;
+    }
+
     header >.menu2 >nav{
         margin-top: 10px;
     }
@@ -8,15 +12,12 @@
     menu#redes-sociais{ 
         top: 82%;
         left: 27%;
+        transition: 1.5s;
     }
     
     menu#redes-sociais img{
         width: 9vw;
     
-    }
-
-    header >h2{
-        padding-top: 30vh;
     }
 
     main{
@@ -26,35 +27,192 @@
     ul > li.projeto1{
         width: 60%;
         transform: translate(35%, 0%);
+        transition: 1.5s;
     }
 
     ul > li.projeto2{
 
         width: 60%;
         transform: translate(35%, 106%);
+        transition: 1.5s;
     }
 
     ul > li.projeto3{
 
         width: 60%;
         transform: translate(35%, 212%);
+        transition: 1.5s;
     }
     
     
     ul > li.projeto4{
         width: 60%;
         transform: translate(35%, 317%);
+        transition: 1.5s;
     }
     ul > li.projeto5{
 
         width: 60%;
         transform: translate(35%, 424%);
+        transition: 1.5s;
     }
     
     ul > li.projeto6{
         width: 60%;
         transform: translate(35%, 531%);
+        transition: 1.5s;
     }
 
 
 }
+@media screen and (min-width:768px) and (max-width:992px){
+    header >h2{
+        padding-top: 30vh;
+    }
+
+    header >h1{
+
+        font-size: 3.2em;
+
+        padding-top: 20px;
+    }
+
+    menu#redes-sociais{ 
+        top: 82%;
+        left: 34%;
+        transition: 1.5s;
+    }
+    
+    menu#redes-sociais img{
+        width: 6vw;
+    }
+
+    main{
+        height: 460vw;
+    }
+
+    ul > li.projeto1{
+        width: 55%;
+        transform: translate(40%, 0%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto2{
+
+        width: 55%;
+        transform: translate(40%, 106%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto3{
+
+        width: 55%;
+        transform: translate(40%, 212%);
+        transition: 1.5s;
+    }
+    
+    
+    ul > li.projeto4{
+        width: 55%;
+        transform: translate(40%, 317%);
+        transition: 1.5s;
+    }
+    ul > li.projeto5{
+
+        width: 55%;
+        transform: translate(40%, 424%);
+        transition: 1.5s;
+    }
+    
+    ul > li.projeto6{
+        width: 55%;
+        transform: translate(40%, 531%);
+        transition: 1.5s;
+    }
+
+    main{
+        height: 405vw;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1600px){
+    header >h2{
+        font-family:'Rubik', sans-serif;
+        color: rgb(236, 52, 98);
+        text-align: center;
+        padding-top: 30vh;
+    }
+
+    header >h1{
+        font-family:'Roboto Slab', serif;
+        color: white;
+        font-size: 5em;
+        text-align: center;
+    }
+
+    header >p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    
+    header >.menu2 >nav{    
+        font-family:'Rubik', sans-serif;
+        text-align: center;
+        padding-top: 70px;
+        font-size: 1.5em;
+    }
+
+    header >.menu2 >nav >a{ 
+        border: 1px  solid white;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+    menu#redes-sociais{
+        position: absolute;
+    
+        top: 80%;
+        left: 41%;
+    }
+
+    menu#redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    menu#redes-sociais img:hover{
+        transform: translate(4px, -4px);
+        transition: transform .2s;
+    }   
+
+    main{
+        background-color: #3b516e;
+        height: 1150px;
+        position: relative;
+    }
+
+    main > section > h1{
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 2em;
+        padding: 50px;
+    }
+
+    main > section > ul > li > a > img{
+        width: 350px;
+    }
+    
+    ul > li.projeto1{
+        font-family: 'Roboto Slab', serif;
+        background-color: white;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        transform: translate(45%, 0%);
+    }
+
+    LEMBRAR DE IR TIRAR O WIDTH DO CSS DO CELULAR 
+}   
