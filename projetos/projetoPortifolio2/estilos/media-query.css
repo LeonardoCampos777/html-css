@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width:600px) and (max-width:768px){
+    header >.menu2 >nav{
+        margin-top: 10px;
+    }
+    
+    menu#redes-sociais{ 
+        top: 82%;
+        left: 27%;
+    }
+    
+    menu#redes-sociais img{
+        width: 9vw;
+    
+    }
+
+    header >h2{
+        padding-top: 30vh;
+    }
+
+    main{
+        height: 460vw;
+    }
+
+    ul > li.projeto1{
+        width: 60%;
+        transform: translate(35%, 0%);
+    }
+
+    ul > li.projeto2{
+
+        width: 60%;
+        transform: translate(35%, 106%);
+    }
+
+    ul > li.projeto3{
+
+        width: 60%;
+        transform: translate(35%, 212%);
+    }
+    
+    
+    ul > li.projeto4{
+        width: 60%;
+        transform: translate(35%, 317%);
+    }
+    ul > li.projeto5{
+
+        width: 60%;
+        transform: translate(35%, 424%);
+    }
+    
+    ul > li.projeto6{
+        width: 60%;
+        transform: translate(35%, 531%);
+    }
+
+
+}

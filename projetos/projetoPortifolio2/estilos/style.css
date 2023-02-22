@@ -58,7 +58,7 @@ menu#redes-sociais{
     position: absolute;
     
     top: 84%;
-    left: 11.5%;
+    left: 15.5%;
 }
 
 menu#redes-sociais img{
@@ -74,7 +74,7 @@ menu#redes-sociais img:hover{
 
 main{
     background-color: #3b516e;
-    height: 2500px;
+    height: 570vw;
     position: relative;
 }
 
