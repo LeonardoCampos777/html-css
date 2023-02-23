@@ -87,19 +87,16 @@ main > section > h1{
 }
 
 main > section > ul > li > a > img{
-    width: 100%;
+    width: 73%;
 }
 
 ul > li.projeto1{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;
-
     position: absolute;
-    transform: translate(16%, 0%);
+    transform: translate(0%, 0%);
 }
 
 main >section > ul > li >h1 {
@@ -110,34 +107,28 @@ main >section > ul > li >h1 {
 
 ul > li.projeto2{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;
 
 
     position: absolute;
-    transform: translate(16%, 106%);
+    transform: translate(0%, 106%);
 }
 
 ul > li.projeto3{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;
 
 
     position: absolute;
-    transform: translate(16%, 212%);
+    transform: translate(0%, 212%);
 }
 
 ul > li.projeto4{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;
@@ -148,8 +139,6 @@ ul > li.projeto4{
 
 ul > li.projeto5{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;
@@ -162,8 +151,6 @@ ul > li.projeto5{
 
 ul > li.projeto6{
     font-family: 'Roboto Slab', serif;
-    background-color: white;
-    width: 74%;
     color: black;
     list-style: none;
     text-align: center;

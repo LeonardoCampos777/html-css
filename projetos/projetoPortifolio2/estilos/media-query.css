@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:600px) and (max-width:768px){
+@media screen and (min-width:550px) and (max-width:768px){
     header >h2{
         padding-top: 30vh;
     }
@@ -139,7 +139,7 @@
         font-family:'Rubik', sans-serif;
         color: rgb(236, 52, 98);
         text-align: center;
-        padding-top: 30vh;
+        padding-top: 36vh;
     }
 
     header >h1{
@@ -205,14 +205,26 @@
     }
     
     ul > li.projeto1{
-        font-family: 'Roboto Slab', serif;
         background-color: white;
-        list-style: none;
-        text-align: center;
-        padding: 10px;
-        position: absolute;
+        padding: 5px;
         transform: translate(45%, 0%);
     }
 
-    LEMBRAR DE IR TIRAR O WIDTH DO CSS DO CELULAR 
+    ul > li.projeto2{
+        background-color: white;
+        padding: 5px;
+        transform: translate(169%, 0%);
+    }
+
+    ul > li.projeto3{
+        background-color: white;
+        padding: 5px;
+        transform: translate(45%, 114%);
+    }
+
+    ul > li.projeto4{
+        background-color: white;
+        padding: 5px;
+        transform: translate(169%, 114.5%);
+    }
 }   
