@@ -2,7 +2,7 @@
 
 @media screen and (min-width:550px) and (max-width:768px){
     header >h2{
-        padding-top: 30vh;
+        padding-top: 20vh;
     }
 
     header >.menu2 >nav{
