@@ -25,6 +25,10 @@
         height: 2740px;
     }
 
+    main > section > ul > li > a > img {
+        width: 100%;
+    }
+
     ul > li.projeto1{
         width: 60%;
         transform: translate(35%, 0%);
@@ -94,40 +98,40 @@
 
     ul > li.projeto1{
         width: 55%;
-        transform: translate(40%, 0%);
+        transform: translate(-2%, 0%);
         transition: 1.5s;
     }
 
     ul > li.projeto2{
 
         width: 55%;
-        transform: translate(40%, 106%);
+        transform: translate(78%, 0%);
         transition: 1.5s;
     }
 
     ul > li.projeto3{
 
         width: 55%;
-        transform: translate(40%, 212%);
+        transform: translate(-2%, 108%);
         transition: 1.5s;
     }
     
     
     ul > li.projeto4{
         width: 55%;
-        transform: translate(40%, 317%);
+        transform: translate(78%, 108%);
         transition: 1.5s;
     }
     ul > li.projeto5{
 
         width: 55%;
-        transform: translate(40%, 424%);
+        transform: translate(-2%, 214%);
         transition: 1.5s;
     }
     
     ul > li.projeto6{
         width: 55%;
-        transform: translate(40%, 531%);
+        transform: translate(78%, 214.5%);
         transition: 1.5s;
     }
 
