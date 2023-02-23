@@ -90,6 +90,12 @@ main > section > ul > li > a > img{
     width: 73%;
 }
 
+main > section > ul > li >h1{
+    color: white;
+    height: 40px;
+    background-color: black;
+}
+
 ul > li.projeto1{
     font-family: 'Roboto Slab', serif;
     color: black;
