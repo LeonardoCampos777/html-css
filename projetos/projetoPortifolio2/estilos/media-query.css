@@ -6,17 +6,18 @@
     }
 
     header >.menu2 >nav{
-        margin-top: 10px;
+        margin-top: -42px;
     }
     
     menu#redes-sociais{ 
         top: 82%;
-        left: 27%;
+        left: 32%;
         transition: 1.5s;
     }
     
     menu#redes-sociais img{
-        width: 9vw;
+        width: 6vw;
+    }
     
     }
 
