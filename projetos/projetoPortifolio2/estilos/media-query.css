@@ -32,53 +32,53 @@
     ul > li.projeto1{
         width: 60%;
         transform: translate(35%, 0%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto2{
 
         width: 60%;
         transform: translate(35%, 106%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto3{
 
         width: 60%;
         transform: translate(35%, 212%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
     
     
     ul > li.projeto4{
         width: 60%;
         transform: translate(35%, 317%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
     ul > li.projeto5{
 
         width: 60%;
         transform: translate(35%, 424%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
     
     ul > li.projeto6{
         width: 60%;
         transform: translate(35%, 531%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
 
 }
 @media screen and (min-width:768px) and (max-width:1150px){
     header >h2{
-        padding-top: 30vh;
+        padding-top: 5vh;
     }
 
+
+
     header >h1{
-
         font-size: 3.2em;
-
         padding-top: 20px;
     }
 
@@ -89,8 +89,9 @@
     }
     
     menu#redes-sociais img{
-        width: 6vw;
+        width: 5vw;
     }
+
 
     main{
         height: 2450px;
@@ -99,40 +100,40 @@
     ul > li.projeto1{
         width: 55%;
         transform: translate(-2%, 0%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto2{
 
         width: 55%;
         transform: translate(78%, 0%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto3{
 
         width: 55%;
         transform: translate(-2%, 108%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
     
     
     ul > li.projeto4{
         width: 55%;
         transform: translate(78%, 108%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
     ul > li.projeto5{
 
         width: 55%;
-        transform: translate(-2%, 214%);
-        transition: 1.5s;
+        transform: translate(-2%, 213%);
+        transition: 1.3s;
     }
     
     ul > li.projeto6{
         width: 55%;
-        transform: translate(78%, 214.5%);
-        transition: 1.5s;
+        transform: translate(78%, 213%);
+        transition: 1.3s;
     }
 
     main{
@@ -141,15 +142,11 @@
 }
 @media screen and (min-width:1150px) and (max-width:1500px){
     header >h2{
-        font-family:'Rubik', sans-serif;
-        color: rgb(236, 52, 98);
-        text-align: center;
-        padding-top: 36vh;
+
+        padding-top: 5vh;
     }
 
     header >h1{
-        font-family:'Roboto Slab', serif;
-        color: white;
         font-size: 5em;
         text-align: center;
     }
@@ -161,23 +158,19 @@
     
     
     header >.menu2 >nav{    
-        font-family:'Rubik', sans-serif;
-        text-align: center;
         padding-top: 70px;
         font-size: 1.5em;
     }
 
     header >.menu2 >nav >a{ 
-        border: 1px  solid white;
-        color: white;
-        text-decoration: none;
+
         padding: 15px;
     }
     menu#redes-sociais{
         position: absolute;
     
         top: 80%;
-        left: 41%;
+        left: 38.5%;
     }
 
     menu#redes-sociais img{
@@ -214,59 +207,52 @@
         background-color: white;
         padding: 5px;
         transform: translate(45%, 0%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto2{
         background-color: white;
         padding: 5px;
         transform: translate(169%, 0%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto3{
         background-color: white;
         padding: 5px;
         transform: translate(45%, 114%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto4{
         background-color: white;
         padding: 5px;
         transform: translate(169%, 114.5%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto5{
         background-color: white;
         padding: 5px;
         transform: translate(45%, 227%);
-        transition: 1.5s;
+        transition: 1.3s;
     }
 
     ul > li.projeto6{
         background-color: white;
         padding: 5px;
-        
-    transform: translate(169%, 228%);
-        transition: 1.5s;
+        transform: translate(169%, 228%);
+        transition: 1.3s;
     }
 }   
 
 @media screen and (min-width:1500px){
     header >h2{
-        font-family:'Rubik', sans-serif;
-        color: rgb(236, 52, 98);
-        text-align: center;
         padding-top: 36vh;
     }
 
     header >h1{
-        font-family:'Roboto Slab', serif;
-        color: white;
         font-size: 5em;
-        text-align: center;
     }
 
     header >p{
@@ -276,16 +262,11 @@
     
     
     header >.menu2 >nav{    
-        font-family:'Rubik', sans-serif;
-        text-align: center;
         padding-top: 70px;
         font-size: 1.5em;
     }
 
     header >.menu2 >nav >a{ 
-        border: 1px  solid white;
-        color: white;
-        text-decoration: none;
         padding: 15px;
     }
     menu#redes-sociais{
