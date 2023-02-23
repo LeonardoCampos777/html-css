@@ -11,18 +11,16 @@
     
     menu#redes-sociais{ 
         top: 82%;
-        left: 32%;
+        left: 24%;
         transition: 1.5s;
     }
     
     menu#redes-sociais img{
-        width: 6vw;
+        width: 9vw;
     }
-    
-    
 
     main{
-        height: 3480px;
+        height: 2740px;
     }
 
     main > section > ul > li > a > img {
