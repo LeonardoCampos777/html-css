@@ -21,7 +21,8 @@
     }
 
     main{
-        height: 460vw;
+        height: 2450px;
+        height: 2740px;
     }
 
     ul > li.projeto1{
@@ -88,7 +89,7 @@
     }
 
     main{
-        height: 460vw;
+        height: 2450px;
     }
 
     ul > li.projeto1{
@@ -188,7 +189,7 @@
 
     main{
         background-color: #3b516e;
-        height: 2500px;
+        height: 1600px;
         position: relative;
     }
 
@@ -303,7 +304,7 @@
 
     main{
         background-color: #3b516e;
-        height: 2500px;
+        height: 1200px;
         position: relative;
     }
 
@@ -362,7 +363,19 @@
         transform: translate(295%, 115%);
         transition: 1.5s;
     }
-}   
-
-
-
+    
+    footer > section.trabalho > h1{
+        font-size: 3.5em;
+        padding-top: 160px;
+    }
+    
+    footer > section.trabalho > p{
+        font-size: 1.5em;
+        padding-top: 20px;   
+    }
+    
+    footer > section.rodape>h1{
+        padding-top: 200px;
+    }
+    
+}
