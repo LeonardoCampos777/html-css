@@ -93,7 +93,7 @@ main > section > ul > li > a > img{
 main > section > ul > li >h1{
     color: white;
     height: 40px;
-    background-color: black;
+    background-color: rgb(57, 135, 187);
 }
 
 ul > li.projeto1{

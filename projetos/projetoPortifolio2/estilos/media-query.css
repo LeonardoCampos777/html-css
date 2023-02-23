@@ -327,43 +327,42 @@
 
     ul > li.projeto1{
         background-color: white;
-        padding: 10px;
+        padding: 5px;
         transform: translate(45%, 0%);
         transition: 1.5s;
     }
 
     ul > li.projeto2{
         background-color: white;
-        padding: 10px;
+        padding: 5px;
         transform: translate(169%, 0%);
         transition: 1.5s;
     }
 
     ul > li.projeto3{
         background-color: white;
-        padding: 10px;
+        padding: 5px;
         transform: translate(295%, 0%);
         transition: 1.5s;
     }
 
     ul > li.projeto4{
         background-color: white;
-        padding: 10px;
+        padding: 5px;
         transform: translate(169%, 114.5%);
         transition: 1.5s;
     }
 
     ul > li.projeto5{
         background-color: white;
-        padding: 10px;
+        padding: 5px;
         transform: translate(45%, 115%);
         transition: 1.5s;
     }
 
     ul > li.projeto6{
         background-color: white;
-        padding: 10px;
-        
+        padding: 5px;
         transform: translate(295%, 115%);
         transition: 1.5s;
     }
