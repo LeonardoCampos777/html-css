@@ -194,6 +194,10 @@
     main > section > ul > li > a > img{
         width: 350px;
     }
+
+    main > section > ul > li >h1{
+        color: black;
+    }
     
     ul > li.projeto1{
         background-color: white;
@@ -296,6 +300,10 @@
 
     main > section > ul > li > a > img{
         width: 350px;
+    }
+
+    main > section > ul > li >h1{
+        color: black;
     }
 
     ul > li.projeto1{
