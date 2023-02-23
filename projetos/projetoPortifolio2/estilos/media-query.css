@@ -65,7 +65,7 @@
 
 
 }
-@media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:768px) and (max-width:1500px){
     header >h2{
         padding-top: 30vh;
     }
@@ -134,7 +134,7 @@
         height: 405vw;
     }
 }
-@media screen and (min-width:992px) and (max-width:1600px){
+@media screen and (min-width:1150px) and (max-width:1500px){
     header >h2{
         font-family:'Rubik', sans-serif;
         color: rgb(236, 52, 98);
@@ -188,7 +188,7 @@
 
     main{
         background-color: #3b516e;
-        height: 1150px;
+        height: 2500px;
         position: relative;
     }
 
@@ -198,6 +198,7 @@
         font-family: 'Roboto Slab', serif;
         font-size: 2em;
         padding: 50px;
+        
     }
 
     main > section > ul > li > a > img{
@@ -208,23 +209,160 @@
         background-color: white;
         padding: 5px;
         transform: translate(45%, 0%);
+        transition: 1.5s;
     }
 
     ul > li.projeto2{
         background-color: white;
         padding: 5px;
         transform: translate(169%, 0%);
+        transition: 1.5s;
     }
 
     ul > li.projeto3{
         background-color: white;
         padding: 5px;
         transform: translate(45%, 114%);
+        transition: 1.5s;
     }
 
     ul > li.projeto4{
         background-color: white;
         padding: 5px;
         transform: translate(169%, 114.5%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto5{
+        background-color: white;
+        padding: 5px;
+        transform: translate(45%, 227%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto6{
+        background-color: white;
+        padding: 5px;
+        
+    transform: translate(169%, 228%);
+        transition: 1.5s;
     }
 }   
+
+@media screen and (min-width:1470px){
+    header >h2{
+        font-family:'Rubik', sans-serif;
+        color: rgb(236, 52, 98);
+        text-align: center;
+        padding-top: 36vh;
+    }
+
+    header >h1{
+        font-family:'Roboto Slab', serif;
+        color: white;
+        font-size: 5em;
+        text-align: center;
+    }
+
+    header >p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    
+    header >.menu2 >nav{    
+        font-family:'Rubik', sans-serif;
+        text-align: center;
+        padding-top: 70px;
+        font-size: 1.5em;
+    }
+
+    header >.menu2 >nav >a{ 
+        border: 1px  solid white;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+    menu#redes-sociais{
+        position: absolute;
+    
+        top: 80%;
+        left: 41%;
+    }
+
+    menu#redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+    menu#redes-sociais img:hover{
+        transform: translate(4px, -4px);
+        transition: transform .2s;
+    }   
+
+    main{
+        background-color: #3b516e;
+        height: 2500px;
+        position: relative;
+    }
+
+    main > section > h1{
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 2em;
+        padding: 50px;
+        
+    }
+
+    main > section > ul > li > a > img{
+        width: 350px;
+    }
+
+    ul > li.projeto1{
+        background-color: white;
+        padding: 10px;
+        transform: translate(45%, 0%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto2{
+        background-color: white;
+        padding: 10px;
+        transform: translate(169%, 0%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto3{
+        background-color: white;
+        padding: 10px;
+        transform: translate(295%, 0%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto4{
+        background-color: white;
+        padding: 10px;
+        transform: translate(169%, 114.5%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto5{
+        background-color: white;
+        padding: 10px;
+        transform: translate(45%, 115%);
+        transition: 1.5s;
+    }
+
+    ul > li.projeto6{
+        background-color: white;
+        padding: 10px;
+        
+        transform: translate(295%, 115%);
+        transition: 1.5s;
+    }
+}   
+
+
+
