@@ -21,8 +21,7 @@
     }
 
     main{
-        height: 2450px;
-        height: 2740px;
+        height: 3480px;
     }
 
     main > section > ul > li > a > img {
@@ -92,9 +91,8 @@
         width: 5vw;
     }
 
-
     main{
-        height: 2450px;
+        height: 1750px;
     }
 
     ul > li.projeto1{
@@ -136,9 +134,6 @@
         transition: 1.3s;
     }
 
-    main{
-        height: 405vw;
-    }
 }
 @media screen and (min-width:1150px) and (max-width:1500px){
     header >h2{
