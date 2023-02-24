@@ -20,7 +20,7 @@
     }
 
     main{
-        height: 2740px;
+        height: 450%;
     }
 
     main > section > ul > li > a > img {
@@ -46,7 +46,6 @@
         transform: translate(35%, 212%);
         transition: 1.3s;
     }
-    
     
     ul > li.projeto4{
         width: 60%;
@@ -89,7 +88,7 @@
     }
 
     main{
-        height: 1750px;
+        height: 250%;
     }
 
     ul > li.projeto1{
@@ -256,7 +255,6 @@
         text-align: center;
     }
     
-    
     header >.menu2 >nav{    
         padding-top: 70px;
         font-size: 1.5em;
@@ -265,6 +263,7 @@
     header >.menu2 >nav >a{ 
         padding: 15px;
     }
+
     menu#redes-sociais{
         position: absolute;
     
