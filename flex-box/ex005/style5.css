@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #F9DCC4;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -45,18 +49,18 @@ main > h1{
     background-color: #FEC89A;
 }
 
-section{
+ section{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /*ESSA JÁ É A FORMA AUTOMÁTICA (PADRAO) */
-    background-color: #F9DCC4;
-    height: 100vh;
+    flex-direction: row; /* EIXO PRINCIPAL */
+    flex-wrap: wrap;
+    justify-content: space-evenly; /*ESSA JÁ É A FORMA AUTOMÁTICA (PADRAO) */
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
+
  section > ul{
-    justify-content: space-evenly;
-    gap:1rem;
+    gap:1.5rem;
 }
 
 ul.imagens > li > img{
@@ -69,4 +73,21 @@ section > ul > li > h3{
     text-align: center;
     height: 2rem;
     background-color: yellow;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+aside >div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+aside > div > img {
+    width: 90vw;
+    padding-top: 1rem;
+    transition: 1.2s;
 }
