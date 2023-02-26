@@ -78,6 +78,7 @@ section > ul > li > h3{
 aside{
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 aside >div{
