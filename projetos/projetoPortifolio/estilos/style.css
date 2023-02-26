@@ -20,26 +20,6 @@ header{
     background-size: cover;
 }
 
-header>.cabeçalho-link{
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer;
-    padding-top: 20px;
-    margin-left: 1000px;
-    list-style: none;
-}
-
-header>.cabeçalho-link a{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(236, 52, 98);
-    font-size: 1.3em;
-}
-
-header>.cabeçalho-link a:hover{
-    color: white
-}
-
 header >h2{
     font-family:'Rubik', sans-serif;
     color: rgb(236, 52, 98);
