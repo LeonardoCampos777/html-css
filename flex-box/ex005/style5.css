@@ -12,9 +12,9 @@ body{
     background-color: #F9DCC4;
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: bisque;
     height: 6rem;
@@ -22,15 +22,12 @@ nav {
     padding: 0 2.4rem;
 }
 
-ul {
+ul{
     display: flex;
-    align-items: center;
     list-style: none;
     gap: 3rem;
-    cursor: pointer;
-
-
 }
+
 
 .button{
     display: inline-flex;
