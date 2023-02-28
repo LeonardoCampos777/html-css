@@ -54,6 +54,7 @@
     .text > h3{
         color: white;
         font-size: 1.1rem;
+        margin-bottom: 32px;
 
     }
 
@@ -62,3 +63,25 @@
         margin: 2rem 0 2rem 0;
         font-size: 4rem;
     }
+
+    .button-2{
+        border-radius: 3px;
+        padding: 1rem;
+        font-size: 0.8rem;
+        background-color: #e7b481;
+        color: white;
+        margin: 0 0 0 212px;
+    }
+
+    .button-3{
+        border-radius: 3px;
+        padding: 20px 7px 4px 7px;
+        font-size: 0.8rem;
+        background-color: #e7b481;
+        color: white;
+    }
+
+    .button-3 > img{
+        width: 1.5rem;
+    }
+
