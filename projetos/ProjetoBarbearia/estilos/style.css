@@ -73,9 +73,17 @@
         margin: 0 0 0 212px;
     }
 
+    .seta{
+        display: flex;
+        align-items: end;
+    }
+
     .button-3{
+        display: flex;
+        align-items: end;
+
         border-radius: 3px;
-        padding: 20px 7px 4px 7px;
+        padding: 10px 7px 4px 7px;
         font-size: 0.8rem;
         background-color: #e7b481;
         color: white;
