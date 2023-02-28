@@ -1,0 +1,48 @@
+@charset "UTFT-8";
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    
+    body{
+        height: 100vh;
+    }
+
+
+    .background{
+        background: url(../imagens/barbearia1.jpg);
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+    nav{
+        display: flex;
+        height: 6rem;
+        background-color: rgb(59, 54, 54);
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    ul{
+        display: flex;
+        gap: 2rem;
+        font-size: .9em;
+        align-items: center;
+    }
+
+    .button{
+        border-radius: 3px;
+        padding: 1.1rem;
+        background-color: #e7b481;
+        color: white;
+    }
