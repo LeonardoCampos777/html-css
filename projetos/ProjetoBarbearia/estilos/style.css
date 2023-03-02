@@ -162,7 +162,6 @@
     }
 
     .preço{
-        gap: 0px;
         margin-left: 5.5rem;
     }
 
@@ -177,8 +176,6 @@
         text-align: center;
         font-size: 2rem;
     }
-
-
     
     .servicos > ul > li{
         border: 1px solid rgba(139, 135, 135, 0.541);
@@ -189,6 +186,5 @@
     }
     
     .preco2-2{
-        gap: 0px;
         margin-left: 3.5rem;
     }
