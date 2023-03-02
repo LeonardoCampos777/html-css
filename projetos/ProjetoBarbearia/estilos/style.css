@@ -190,3 +190,20 @@
         margin-left: 3.5rem;
         justify-content: center;
     }
+
+    aside{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 2.5rem;
+    }
+
+    aside .imagem1{
+        padding-left: 4rem;
+    }
+
+
+
+    aside  h3{
+        padding-left: 4rem;
+
+    }
