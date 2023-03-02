@@ -162,7 +162,7 @@
     }
 
     .preço{
-        margin-left: 5.5rem;
+        margin-left: .5rem;
     }
 
     article > h3{
@@ -186,5 +186,7 @@
     }
     
     .preco2-2{
+        display: flex;
         margin-left: 3.5rem;
+        justify-content: center;
     }
