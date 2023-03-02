@@ -95,3 +95,78 @@
         width: 1.5rem;
     }
 
+
+    main{
+        height: 200vh;
+        background-color: #F5F7FA;
+    }
+
+    section{
+        padding-top: 1.5rem;
+    }
+
+       section >h3{
+        text-align: center;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    section >h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .cortes{
+        display: flex;
+        justify-content: center;
+        padding-top: 3.5rem;
+    }
+
+    .cortes > ul > li:hover{
+        transform: translate(4px, -4px);
+        cursor: pointer;
+    }
+
+    .cortes  img{
+        width: 8rem;
+    }
+
+    .cortes h3{
+        text-align: center;
+    }
+
+    .cortes-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 5.5rem;
+    }
+
+    .cortes-2 > ul > li:hover{
+        transform: translate(4px, -4px);
+        cursor: pointer;
+    }
+    
+    .cortes-2  img{
+        width: 8.5rem;
+    }
+
+    .cortes-2 h3{
+        text-align: center;
+    }
+
+    article{
+        background-color: #FFFFFF;
+        height: 40rem;
+        margin-top: 3rem;
+    }
+
+    article > h3{
+        text-align: center;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    article > h1{
+        text-align: center;
+        font-size: 2rem;
+    }
