@@ -109,6 +109,7 @@
         text-align: center;
         padding: 30px;
         font-size: 1rem;
+        font-weight: 400;
     }
 
     section >h1{
@@ -160,13 +161,34 @@
         margin-top: 3rem;
     }
 
+    .preço{
+        gap: 0px;
+        margin-left: 5.5rem;
+    }
+
     article > h3{
         text-align: center;
         padding: 30px;
         font-size: 1rem;
+        font-weight: 400;
     }
 
     article > h1{
         text-align: center;
         font-size: 2rem;
+    }
+
+
+    
+    .servicos > ul > li{
+        border: 1px solid rgba(139, 135, 135, 0.541);
+        padding: 35px 110px 35px 110px;
+        border-radius: 10px;
+        margin: 30px 0 0 50px;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.568);
+    }
+    
+    .preco2-2{
+        gap: 0px;
+        margin-left: 3.5rem;
     }
