@@ -205,5 +205,21 @@
 
     aside  h3{
         padding-left: 4rem;
+    }
 
+    footer{
+
+    }
+
+    footer > h1{
+        text-align: center;
+        margin-top: 6rem;
+        font-size: 1.5rem;
+        background-color: #FFFFFF;
+        padding: 1rem;
+    }
+
+    footer a{
+        color: #2fbdeb;
+        ;
     }
