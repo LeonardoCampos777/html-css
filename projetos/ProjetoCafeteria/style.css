@@ -47,6 +47,10 @@ header > h1{
     color: #ffa561e6;
 }
 
+main{
+    height: 443vh;
+}
+
 section{
     height: 20.5rem;
 }
