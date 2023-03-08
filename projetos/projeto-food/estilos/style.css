@@ -66,4 +66,11 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     cursor: pointer;
+    background-color: rgb(202, 12, 12);
+    color: white;
+}
+
+.conteudo > button:hover{
+    background-color: white;
+    color: black;
 }
