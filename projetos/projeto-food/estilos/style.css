@@ -28,6 +28,12 @@ header {
 
 }
 
+a {
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal;
+    color: rgb(202, 12, 12);
+}
+
 .container > ul {
     display: flex;
     align-items: center;
