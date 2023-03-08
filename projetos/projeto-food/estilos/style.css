@@ -74,3 +74,54 @@ a {
     background-color: white;
     color: black;
 }
+
+main{
+    height: 200vh;
+    background-color: white;
+}
+
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardapio > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3.5rem
+}
+
+
+.cardapio  img{
+    padding-left: 50px;
+}
+
+
+.cardapio h1{
+    font-size: 1.8em;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal;
+    padding: .5rem;
+    padding-left: 55px;
+}
+
+.cardapio p{
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardapio  button{
+    margin-top: 15px;
+    padding: 8px 45px 8px 45px;
+    border: 2px solid darkred;
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #FFF2D9;
+    color: darkred;
+}
