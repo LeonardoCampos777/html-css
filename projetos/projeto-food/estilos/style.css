@@ -110,6 +110,10 @@ main{
     padding-left: 55px;
 }
 
+#h1{
+    padding-left: 37px;
+}
+
 .cardapio p{
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
