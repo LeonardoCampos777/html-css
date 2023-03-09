@@ -113,6 +113,7 @@ main{
 .cardapio p{
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .cardapio  button{
@@ -125,4 +126,9 @@ main{
     cursor: pointer;
     background-color: #FFF2D9;
     color: darkred;
+}
+
+.cardapio  button:hover{
+    background-color: rgb(202, 12, 12);
+    color: white;
 }
