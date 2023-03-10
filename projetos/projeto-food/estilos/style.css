@@ -165,3 +165,12 @@ main{
     text-shadow: 2px 4px 8px black;
     
 }
+
+#moto{
+    padding-left: 0px;
+    padding-top: 3.5rem;
+}
+
+#caminho{
+    padding-left: 80px;
+}
