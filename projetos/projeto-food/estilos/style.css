@@ -118,6 +118,7 @@ main{
     font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: black;
 }
 
 .cardapio  button{
@@ -142,7 +143,7 @@ main{
     background: url(../imagens/wallpaperflare.com_wallpaper\ \(35\).jpg);
     background-position: center center;
     background-size: cover;
-    height: 70vh;
+    height: 40rem;
 }
 
 
