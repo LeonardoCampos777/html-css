@@ -167,8 +167,12 @@ main{
     padding-top: 3.5rem;
 }
 
+#noodles{
+    padding-right: 50px;
+}
+
 #caminho{
-    padding-left: 50px;
+    padding-left: 63px;
 }
 
 aside > div.reservas{

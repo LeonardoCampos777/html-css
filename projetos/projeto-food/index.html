@@ -58,7 +58,7 @@
             <div class="cardapio">
                 <img id="moto" src="imagens/moto2.png">
                 <p>Faça seu pedido</p>
-                <h1>Nosso noodles  está <br> <span id="caminho"> a caminho</span></h1>
+                <h1><span id="noodles">Nosso noodles  está</span> <br> <span id="caminho"> a caminho</span></h1>
                 <button>Fazer pedido</button>
             </div>
 
@@ -66,8 +66,16 @@
                 <div class="reservas">
                     <p>Reservas</p>
                     <h1>Tem espaço <br> na mesa</h1>
-                    <form action="php">
-                    
+                    <form action="reserva.php" method="post">
+                        <p>
+                            <label for="idata"></label>
+                            <input type="date" name="data" id="idata">
+                        </p>
+
+                        <p>
+                            <label for="ihora"></label>
+                            <input type="time" name="time" id="itime">
+                        </p>
                     </form>
                 </div>
             </aside>
