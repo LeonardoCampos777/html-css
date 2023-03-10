@@ -133,7 +133,7 @@ main{
 }
 
 .cardapio  button:hover{
-    background-color: rgb(202, 12, 12);
+    background-color: #ca0c0c;
     color: white;
 }
 
@@ -142,7 +142,7 @@ main{
     background: url(../imagens/wallpaperflare.com_wallpaper\ \(35\).jpg);
     background-position: center center;
     background-size: cover;
-    height: 43rem;
+    height: 70vh;
 }
 
 .descricao > h1, p{
