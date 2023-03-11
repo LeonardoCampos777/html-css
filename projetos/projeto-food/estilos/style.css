@@ -167,12 +167,8 @@ main{
     padding-top: 3.5rem;
 }
 
-#noodles{
+.cardapio > h1{
     padding-right: 50px;
-}
-
-#caminho{
-    padding-left: 88px;
 }
 
 aside > div.reservas{
