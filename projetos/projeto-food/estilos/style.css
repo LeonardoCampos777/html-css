@@ -176,7 +176,7 @@ main{
 }
 
 aside > div.reservas{
-    height: 20rem;
+    height: 33rem;
     margin-top: 3rem;
     background-color: #DF080F;
 }
@@ -193,13 +193,16 @@ aside > div.reservas{
     text-align: center;
     font-size: 3rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     color: white;
     font-family: 'Tilt Warp', cursive;
     font-weight: normal;
+    
 }
 
 form{
     text-align: center;
+    
 }
 
 input{
@@ -208,4 +211,26 @@ input{
     background-color: #DF080F;
     color: white;
     border: 1px solid white;
+ 
+}
+
+select{
+    height: 40px;
+    width: 90%;
+    border: 1px solid white;
+    background-color: #DF080F;
+    color: white;
+}
+
+
+form > p {
+    padding-bottom: 20px;
+}
+
+#reserve{
+    background-color: white;
+    color: #ca0c0c;
+    width: 80%;
+
+    font-size: 1.2em;
 }
