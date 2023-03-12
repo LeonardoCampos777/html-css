@@ -238,7 +238,7 @@ form > p {
 }
 
 .propaganda > p{
-    padding: 2rem;
+    padding-top: 2rem;
     text-align: center;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
@@ -261,7 +261,7 @@ form > p {
 
 
 .propaganda div > ul > li > img{
-    height: 35vh;
+    height: 40vh;
     padding: .7rem;
     
 }
