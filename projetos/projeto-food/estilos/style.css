@@ -76,7 +76,7 @@ a {
 }
 
 main{
-    height: 200vh;
+    height: 500vh;
     background-color: white;
 }
 
@@ -259,9 +259,17 @@ form > p {
 
 }
 
-
 .propaganda div > ul > li > img{
     height: 40vh;
     padding: .7rem;
     
+}
+
+footer{
+    background-color: #DF080F;
+    color: white;
+}
+
+footer > h1,p{
+    padding: 1rem;
 }
