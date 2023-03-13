@@ -286,3 +286,46 @@ footer > div > p{
     font-weight: bold;
     color: white;
 }
+
+.form{
+    text-align: left;
+    padding-top: 1rem;
+}
+
+form > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 0rem;
+}
+
+.footer-input{
+    width: 70%;
+    text-align: left;
+    border-radius: 10px;
+    cursor: auto;
+}
+
+.footer-input::placeholder{
+    color: white;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-input:hover{
+    background-color: black;
+}
+
+
+form > button{
+    margin-top: 15px;
+    padding: 8px 30px 8px 30px;
+    border: 1px solid white;
+    border-radius: .3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(202, 12, 12);
+    
+} 
