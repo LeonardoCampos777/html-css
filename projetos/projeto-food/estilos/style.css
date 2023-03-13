@@ -331,6 +331,8 @@ form > button{
 
 #redes{
     padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
 }
 
 #redes > ul > li > a > img{
@@ -339,5 +341,6 @@ form > button{
 
 #redes > ul{
     display: flex;
+    flex-direction: row;
     gap: 2rem;
 }
