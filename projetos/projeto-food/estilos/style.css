@@ -234,7 +234,7 @@ form > p {
 
 .propaganda{
     background-color: #FFF2D9;
-    height: 90rem;
+    height: 86rem;
 }
 
 .propaganda > p{
@@ -284,4 +284,5 @@ footer > div > h2{
 footer > div > p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+    color: white;
 }
