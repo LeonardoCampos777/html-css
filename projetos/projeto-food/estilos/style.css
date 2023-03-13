@@ -76,7 +76,6 @@ a {
 }
 
 main{
-    height: 500vh;
     background-color: white;
 }
 
@@ -172,7 +171,7 @@ main{
 }
 
 aside > div.reservas{
-    height: 33rem;
+    height: 37rem;
     margin-top: 3rem;
     background-color: #DF080F;
 }
@@ -235,6 +234,7 @@ form > p {
 
 .propaganda{
     background-color: #FFF2D9;
+    height: 90rem;
 }
 
 .propaganda > p{
@@ -268,8 +268,20 @@ form > p {
 footer{
     background-color: #DF080F;
     color: white;
+    padding: 1.5rem;
 }
 
-footer > h1,p{
+footer > h2,p{
     padding: 1rem;
+}
+
+footer > div > h2{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+footer > div > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
