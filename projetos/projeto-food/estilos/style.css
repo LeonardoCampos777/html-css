@@ -327,5 +327,17 @@ form > button{
     cursor: pointer;
     background-color: white;
     color: rgb(202, 12, 12);
-    
 } 
+
+#redes{
+    padding-top: 1rem;
+}
+
+#redes > ul > li > a > img{
+    width: 2.5rem;
+}
+
+#redes > ul{
+    display: flex;
+    gap: 2rem;
+}
