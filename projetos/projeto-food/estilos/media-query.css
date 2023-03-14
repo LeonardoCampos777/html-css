@@ -1,0 +1,31 @@
+@charset "UTF-8;";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .cardapio > ul {
+        flex-direction: row;
+    }
+
+    .descricao {
+        background-position: center left;
+        background-attachment: fixed;
+    }
+
+    .descricao p {
+        padding-right: 200px;
+        text-align: justify;
+    }
+
+    .propaganda {
+        height: 85rem;
+    }
+
+    .conteudo-2{
+        display: flex;
+        justify-content: space-between
+    }
+
+    .conteudo-2 > h2, p {
+        padding: 0rem;
+    }
+}
+

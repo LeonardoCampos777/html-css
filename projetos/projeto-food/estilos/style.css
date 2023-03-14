@@ -280,16 +280,17 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-footer > h2,p{
+
+.conteudo-2 > h2,p{
     padding: 1rem;
 }
 
-footer > div > h2{
+.conteudo-2 > div > h2{
     font-size: 1.5em;
     font-weight: normal;
 }
 
-footer > div > p{
+.conteudo-2 > div > p{
 
     font-weight: bold;
     color: white;
