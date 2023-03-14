@@ -34,6 +34,10 @@ a {
     color: rgb(202, 12, 12);
 }
 
+.container > a > img{
+    width: 5rem;
+}
+
 .container > ul {
     display: flex;
     align-items: center;
@@ -41,7 +45,7 @@ a {
 
 .conteudo{
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 10rem;
     color: white;
     
 }
@@ -60,7 +64,7 @@ a {
 
 .conteudo > button{
     margin-top: 15px;
-    padding: 8px 30px 8px 30px;
+    padding: 12px 35px 12px 35px;
     border: 1px solid white;
     border-radius: .3rem;
     font-family: 'Roboto', sans-serif;
@@ -234,7 +238,7 @@ form > p {
 
 .propaganda{
     background-color: #FFF2D9;
-    height: 86rem;
+    height: 80rem;
 }
 
 .propaganda > p{
