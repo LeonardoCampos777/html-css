@@ -240,6 +240,11 @@ form > p {
     font-size: 1.2em;
 }
 
+#reserve:hover{
+    background-color: #CA0C0C;
+    color: white;
+}
+
 .propaganda{
     background-color: #FFF2D9;
     height: 80rem;
