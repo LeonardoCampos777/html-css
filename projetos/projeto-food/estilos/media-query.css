@@ -27,5 +27,11 @@
     .conteudo-2 > h2, p {
         padding: 0rem;
     }
+
+    #termos{
+        display: flex;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
 }
 

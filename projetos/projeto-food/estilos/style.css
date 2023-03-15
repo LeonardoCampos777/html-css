@@ -354,7 +354,6 @@ form > button{
 }
 
 #termos{
-    cursor: pointer;
     padding-bottom: 1rem;
 }
 
@@ -368,4 +367,8 @@ form > button{
 #developed h2{
     font-size: 1.2em;
     font-family: 'Roboto';
+}
+
+#developed  a:hover{
+    color: #1e93d6;
 }
