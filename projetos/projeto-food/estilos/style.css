@@ -247,7 +247,6 @@ form > p {
 
 .propaganda{
     background-color: #FFF2D9;
-    height: 80rem;
 }
 
 .propaganda > p{
@@ -269,7 +268,7 @@ form > p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding-bottom: 3rem;
 }
 
 .propaganda div > ul > li > img{
