@@ -172,11 +172,9 @@ main{
 #moto{
     padding-left: 0px;
     padding-top: 3.5rem;
-}
 
-.cardapio > h1{
-    padding-right: 50px;
-}
+    }
+
 
 aside > div.reservas{
     height: 37rem;
