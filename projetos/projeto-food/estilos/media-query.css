@@ -1,6 +1,19 @@
 @charset "UTF-8;";
 
 @media screen and (min-width:768px) and (max-width:992px){
+    .conteudo{
+        margin-top: 13rem;
+    }
+
+    .conteudo > h2 {
+        font-size: 5em;
+    }
+
+    .conteudo >p {
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
     .cardapio > ul {
         flex-direction: row;
     }
@@ -36,6 +49,21 @@
 }
 
 @media screen and (min-width:992px){
+    header > .conteudo{
+        margin-top: 15rem;
+    }
+
+
+    header > .conteudo >h2{
+        font-size: 7em;
+    }
+
+    header > .conteudo >p{
+        font-size: 2em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+    }
+
     .cardapio > ul {
         flex-direction: row;
     }
@@ -44,6 +72,7 @@
         background-position: center left;
         background-attachment: fixed;
         padding: 80px 0px 0px 187px;
+        height: 100vh;
     }
 
     .descricao h1 {
@@ -53,9 +82,41 @@
     .descricao p {
         width: 500px;
         text-align: justify;
+        font-size: 1.4em;
     }
 
+    .propaganda > div > ul{
+        display: flex;
+    }
+    
+    .propaganda div > ul > li > img {
+        height: 22vh;
+    }
 
+    .conteudo-2 {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .conteudo-2 > h2, p {
+        padding: 0rem;
+    }
+
+    .footer-input {
+        width: 30%;
+    }
+
+    form > button{
+        margin-left: 20px;
+        padding: 10px 30px 10px 30px;
+    }
 }
 
 
+@media screen and (min-width:1620px){
+
+.propaganda div > ul > li > img {
+    height: 34vh;
+}
+
+}
