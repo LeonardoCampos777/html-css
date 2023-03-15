@@ -99,7 +99,7 @@ main{
 }
 
 
-.cardapio  img{
+.cardapio img{
     padding-left: 50px;
 }
 
@@ -173,8 +173,11 @@ main{
     padding-left: 0px;
     padding-top: 3.5rem;
 
-    }
+ }
 
+ #caminho{
+    padding-left: 0px;
+ }
 
 aside > div.reservas{
     height: 37rem;
