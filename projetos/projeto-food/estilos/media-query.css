@@ -16,7 +16,7 @@
     }
 
     .propaganda {
-        
+
     }
 
     .conteudo-2{
@@ -34,4 +34,28 @@
         padding-top: 1rem;
     }
 }
+
+@media screen and (min-width:992px){
+    .cardapio > ul {
+        flex-direction: row;
+    }
+
+    .descricao {
+        background-position: center left;
+        background-attachment: fixed;
+        padding: 80px 0px 0px 187px;
+    }
+
+    .descricao h1 {
+        font-size: 3.1rem;
+    }
+
+    .descricao p {
+        padding-right: 60rem;
+        text-align: justify;
+    }
+
+
+}
+
 
