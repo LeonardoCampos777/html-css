@@ -59,13 +59,32 @@
     }
 
     header > .conteudo >p{
-        font-size: 2em;
+        font-size: 1.8em;
         font-family: 'Roboto', sans-serif;
         font-weight: bolder;
     }
 
+    .cardapio{
+        height: 60vh;
+        padding-top: 5rem;
+    }
+
     .cardapio > ul {
         flex-direction: row;
+        gap: 15rem;
+    }
+
+    .cardapio img{
+        width: 10rem;
+    }
+
+    .cardapio h1 {
+        font-size: 2.8em;
+    }
+
+    .cardapio p {
+        font-size: 1.3em;
+        font-weight: bold;
     }
 
     .descricao {

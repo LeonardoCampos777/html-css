@@ -107,6 +107,15 @@ main{
     padding-right: 14px;
 }
 
+#imgsopa{
+    padding-left: 45px;
+}
+
+#sopah1{
+    padding-left: 50px;
+}
+
+
 .cardapio h1{
     font-size: 1.8em;
     font-family: 'Tilt Warp', cursive;
