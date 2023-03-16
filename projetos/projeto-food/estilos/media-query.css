@@ -121,6 +121,17 @@
         padding: 0rem;
     }
 
+    form input,select{
+        width: 50%;
+        height: 50px;
+    }
+
+    #reserve{
+        width: 50%;
+        height: 50px;
+    }
+
+
     .footer-input {
         width: 30%;
     }
@@ -129,6 +140,8 @@
         margin-left: 20px;
         padding: 10px 30px 10px 30px;
     }
+
+
 }
 
 
