@@ -185,9 +185,33 @@
 
 
 @media screen and (min-width:1620px){
+    .propaganda > div {
+        padding-bottom: 5rem;
+    }
+    
 
 .propaganda div > ul > li > img {
     height: 34vh;
+}
+
+.propaganda #img1:hover{
+    transition: transform 3s;
+    height: 35vh;
+}
+
+.propaganda #img2:hover{
+    height: 35vh;
+    transition: transform .5s;
+}
+
+.propaganda #img3:hover{
+    height: 35vh;
+    transition: transform .5s;
+}
+
+.propaganda #img4:hover{
+    height: 35vh;
+    transition: transform .5s;
 }
 
 }
