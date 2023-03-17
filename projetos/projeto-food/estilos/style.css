@@ -372,6 +372,11 @@ form > button:hover{
     padding-bottom: 1rem;
 }
 
+#redes img:hover{
+    transform: translate(4px, -4px);
+    transition: transform .2s;
+    }
+
 #termos{
     padding-bottom: 1rem;
 }
