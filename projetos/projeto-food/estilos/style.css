@@ -21,10 +21,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-right: 5px;
+    padding: 5px;
 
     
     background-color: white;
     color: black;
+    
 
 }
 
