@@ -1,0 +1,28 @@
+.header{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header img{
+  width: 115px;
+}
+
+.header-menu{
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width:800px){
+  .header-menu{
+    gap: 40px;
+    flex-direction: column;
+  }
+}
